@@ -1,7 +1,12 @@
 """Etapa 3: top 500 pela nota do Letterboxd (mínimo de 1.000 avaliações)."""
 import csv
+import re
 
 MIN_AVALIACOES, TOP = 1000, 500
+
+
+def limpar(texto):
+    return re.sub(r"\s+", " ", texto or "").strip()
 
 
 def main():
@@ -18,7 +23,10 @@ def main():
         w = csv.DictWriter(fh, campos, extrasaction="ignore")
         w.writeheader()
         for pos, r in enumerate(lb[:TOP], 1):
-            w.writerow({**cat[r["imdb_id"]], **r, "posicao": pos})
+            f = {**cat[r["imdb_id"]], **r, "posicao": pos}
+            for k in ("titulo_original", "titulo_pt", "diretor"):
+                f[k] = limpar(f[k])
+            w.writerow(f)
     print(f"Elegíveis (>= {MIN_AVALIACOES} avaliações): {len(lb)} | gravados: {min(TOP, len(lb))}")
 
 
