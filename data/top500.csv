@@ -1,15 +1,501 @@
 posicao,titulo_original,titulo_pt,ano,diretor,duracao_min,nota_letterboxd,avaliacoes_letterboxd,imdb_id,servicos
-1,#SeAcabó: Diario de las campeonas,#SeAcabó: O Beijo Que Mudou o Futebol Espanhol,2024,Joanna Pardos,95,3.92,2569,tt33615797,Netflix
-2,(500) Days of Summer,(500) Dias com Summer,2009,Marc Webb,95,3.65,3408401,tt1022603,Disney+
-3, Le Bus: Les Bleus en grève,A Greve da Seleção da França,2026,"Jérôme Fritel, Christophe Astruc",81,3.44,12369,tt37024319,Netflix
-4,#Skyking,#Skyking,2026,Patricia E. Gillespie,91,3.34,3581,tt39368489,Disney+
-5,#살아있다,#Alive,2020,Cho Il,98,3.11,250112,tt10620868,Netflix
-6,#マンホール,#Manhole - Desvio Fatal,2023,Kazuyoshi Kumakiri,99,3.03,2558,tt24670176,Prime Video
-7,#AAY,Voltando às Raízes,2024,Anji K Maniputhra,142,3,2851,tt28359277,Netflix
-8,(MAD)²,Coisa de Loucos 2,2025,Kalyan Shankar,127,2.71,8377,tt32327574,Netflix
-9,'Twas the Night,A Consoada,2001,Nick Castle,84,2.55,3461,tt0282223,Disney+
-10,0.0MHz,0.0MHZ Frequência da Morte,2019,Yoo Sun-dong,102,2.48,3529,tt10341248,Prime Video
-11,#SalveRosa,#SalveRosa,2025,Susanna Lira,95,2.33,62633,tt32221511,Netflix
-12,'Twas the Text Before Christmas,Uma Mensagem Antes do Natal,2023,T.W. Peacocke,85,2.08,10788,tt27915407,Netflix
-13,#realityhigh,#REALITYHIGH,2017,Fernando Lebrija,99,1.95,18654,tt6119504,Netflix
-14,#No_Filter,#Sem_Filtro - Noite Sangrenta,2023,Michael Dupret,87,1.88,1451,tt18940322,Prime Video
+1,The Shawshank Redemption,Os Condenados de Shawshank,1994,Frank Darabont,142,4.6,3135556,tt0111161,Netflix|HBO Max
+2,La ard ukhrá,Sem Chão,2024,"Rachel Szor, Hamdan Ballal, Yuval Abraham, Basel Adra",92,4.6,121609,tt30953759,MUBI
+3,The Godfather Part II,O Padrinho: Parte II,1974,Francis Ford Coppola,200,4.59,1544768,tt0071562,Paramount+
+4,Cidade de Deus,Cidade de Deus,2002,Fernando Meirelles,124,4.58,1297871,tt0317248,Netflix|HBO Max
+5,The Lord of the Rings: The Return of the King,O Senhor dos Anéis: O Regresso do Rei,2003,Peter Jackson,201,4.56,2492959,tt0167260,HBO Max|Disney+
+6,Nuit et Brouillard,Noite e Nevoeiro,1956,Alain Resnais,55,4.55,63918,tt0048434,MUBI
+7,Harry Styles. One Night in Manchester.,Harry Styles: Uma Noite em Manchester,2026,Paul Dugdale,97,4.55,53768,tt40341984,Netflix
+8,Taylor Swift | The Eras Tour | The Final Show,Taylor Swift | The Eras Tour | The Final Show,2025,Glenn Weiss,207,4.53,38755,tt38673135,Disney+
+9,기생충,Parasitas,2019,Bong Joon Ho,132,4.52,5873837,tt6751668,Netflix|Prime Video
+10,The Godfather,O Padrinho,1972,Francis Ford Coppola,175,4.51,2951126,tt0068646,Paramount+
+11,The Dark Knight,O Cavaleiro das Trevas,2008,Christopher Nolan,152,4.5,4861188,tt0468569,HBO Max
+12,Folklore: The Long Pond Studio Sessions,Taylor Swift: Folklore - Sessões no Long Pond Studio,2020,Taylor Swift,106,4.49,119558,tt13524234,Disney+
+13,火垂るの墓,O Túmulo dos Pirilampos,1988,Isao Takahata,89,4.48,1380454,tt0095327,Netflix
+14,新世紀エヴァンゲリオン劇場版 Air／まごころを、君に,Evangelion - The End of Evangelion,1997,"Hideaki Anno, Kazuya Tsurumaki",87,4.48,596729,tt0169858,Netflix
+15,Interstellar,Interestelar,2014,Christopher Nolan,169,4.46,6442830,tt0816692,HBO Max
+16,GoodFellas,Tudo Bons Rapazes,1990,Martin Scorsese,145,4.46,2361122,tt0099685,Prime Video|HBO Max
+17,There Will Be Blood,Haverá Sangue,2007,Paul Thomas Anderson,158,4.46,1415263,tt0469494,Paramount+
+18,The Lord of the Rings: The Two Towers,O Senhor dos Anéis: As Duas Torres,2002,Peter Jackson,179,4.44,2440517,tt0167261,HBO Max|Disney+
+19,千と千尋の神隠し,A Viagem de Chihiro,2001,Hayao Miyazaki,125,4.43,4023419,tt0245429,Netflix
+20,Portrait de la jeune fille en feu,Retrato da Rapariga em Chamas,2019,Céline Sciamma,121,4.43,1183439,tt8613070,Prime Video
+21,The Apartment,O Apartamento,1960,Billy Wilder,126,4.43,412236,tt0053604,MUBI
+22,방탄소년단: 옛 투 컴 인 시네마,BTS: Yet to Come,2023,Oh Yoon-dong,103,4.43,17789,tt24807190,Prime Video
+23,Lawrence of Arabia,Lawrence da Arábia,1962,David Lean,228,4.42,417376,tt0056172,Netflix
+24,Witness for the Prosecution,Testemunha de Acusação,1958,Billy Wilder,116,4.41,142396,tt0051201,Prime Video
+25,صوت هند رجب,A Voz de Hind Rajab,2025,Kaouther Ben Hania,89,4.41,127593,tt36943034,Netflix
+26,HOMECOMING: A film by Beyoncé,HOMECOMING: A film by Beyoncé,2019,Beyoncé,137,4.41,76735,tt10147546,Netflix
+27,BTS: PERMISSION TO DANCE 온 스테이지 – LA,BTS: Permission to Dance - Ao Vivo em Los Angeles,2022,"Park Jun-soo, Sam Wrench",130,4.41,12815,tt22010428,Disney+
+28,Spider-Man: Into the Spider-Verse,Homem-Aranha: No Universo-Aranha,2018,"Bob Persichetti, Peter Ramsey, Rodney Rothman",117,4.4,5010041,tt4633694,Prime Video
+29,Spider-Man: Across the Spider-Verse,Homem-Aranha: Através do Aranhaverso,2023,"Justin K. Thompson, Kemp Powers, Joaquim Dos Santos",140,4.4,4116284,tt9362722,Netflix
+30,The Empire Strikes Back,Star Wars: Episódio V - O Império Contra-Ataca,1980,Irvin Kershner,124,4.4,2431443,tt0080684,Disney+
+31,もののけ姫,A Princesa Mononoke,1997,Hayao Miyazaki,134,4.4,1825912,tt0119698,Netflix
+32,Do the Right Thing,Não Dês Bronca,1989,Spike Lee,120,4.4,572985,tt0097216,MUBI
+33,BTS 컴백 라이브: ARIRANG,BTS THE COMEBACK LIVE | ARIRANG,2026,"Hamish Hamilton, Cameron Whitelaw",66,4.4,23304,tt39578533,Netflix
+34,Se7en,Seven - 7 Pecados Mortais,1995,David Fincher,127,4.39,4003355,tt0114369,HBO Max
+35,Good Will Hunting,O Bom Rebelde,1997,Gus Van Sant,127,4.39,3613375,tt0119217,Paramount+
+36,The Lord of the Rings: The Fellowship of the Ring,O Senhor dos Anéis - A Irmandade do Anel,2001,Peter Jackson,208,4.39,3276319,tt0120737,Netflix|HBO Max|Disney+
+37,SUGA: Road to D-DAY,Suga: Road to D-Day,2023,Park Jun-soo,81,4.39,8597,tt27410896,Disney+
+38,Dune: Part Two,Dune - Duna: Parte Dois,2024,Denis Villeneuve,167,4.38,3667000,tt15239678,HBO Max
+39,세븐틴 투어 ‘팔로우’ 어게인 투 시네마,Seventeen Tour 'Follow' Again to Cinemas,2024,Oh Yoon-dong,103,4.38,3815,tt32938930,Disney+
+40,Inglourious Basterds,Sacanas Sem Lei,2009,Quentin Tarantino,153,4.37,3970603,tt0361748,Prime Video
+41,花樣年華,Disponível Para Amar,2000,Wong Kar-Wai,98,4.37,1088057,tt0118694,MUBI
+42,Persona,A Máscara,1966,Ingmar Bergman,85,4.37,469457,tt0060827,MUBI
+43,หลานม่า,Como Ganhar Milhões Antes que a Avó Morra,2024,Pat Boonnitipat,127,4.37,299641,tt31392609,Netflix
+44,Dead Poets Society,O Clube dos Poetas Mortos,1989,Peter Weir,129,4.36,4041092,tt0097165,Disney+
+45,Hauru no ugoku shiro,O Castelo Animado,2004,Hayao Miyazaki,119,4.36,2735945,tt0347149,Netflix
+46,올드보이,Oldboy - Velho Amigo,2003,Park Chan-wook,119,4.36,1721540,tt0364569,MUBI
+47,"Paris, Texas","Paris, Texas",1984,Wim Wenders,147,4.36,795725,tt0087884,MUBI
+48,Central do Brasil,Central do Brasil,1998,Walter Salles,111,4.36,236762,tt0140888,Netflix
+49,خانه‌ی دوست کجاست؟,Onde Fica a Casa do Meu Amigo?,1987,Abbas Kiarostami,83,4.36,146592,tt0093342,MUBI
+50,j-hope IN THE BOX,J-hope in the Box,2023,Park Jun-soo,85,4.36,7614,tt26425683,Disney+
+51,The Departed,The Departed - Entre Inimigos,2006,Martin Scorsese,151,4.35,1749938,tt0407887,Netflix
+52,Singin' in the Rain,Serenata à Chuva,1952,"Stanley Donen, Gene Kelly",103,4.35,689595,tt0045152,HBO Max
+53,Twin Peaks: Fire Walk with Me,​Twin Peaks: Os Últimos Sete Dias de Laura Palmer,1992,David Lynch,135,4.35,506949,tt0105665,MUBI
+54,20 Days in Mariupol,20 Dias em Mariupol,2023,Mstyslav Chernov,94,4.35,44935,tt24082438,Netflix
+55,Django Unchained,Django Libertado,2012,Quentin Tarantino,165,4.34,3516513,tt1853728,HBO Max
+56,The Silence of the Lambs,O Silêncio dos Inocentes,1991,Jonathan Demme,118,4.34,3365907,tt0102926,Prime Video
+57,La batalla de Chile (Parte 2). El Golpe de Estado,A Batalha do Chile - Segunda Parte: o golpe de Estado,1976,Patricio Guzmán,88,4.34,6106,tt0074187,MUBI
+58,La batalla de Chile (Parte 1). La insurrección de la burguesía,A Batalha do Chile - 1.ª Parte: A Insurreição da Burguesia,1975,Patricio Guzmán,97,4.33,8981,tt0072685,MUBI
+59,PERFECT DAYS,Dias Perfeitos,2023,Wim Wenders,124,4.32,911342,tt27503384,Netflix|MUBI
+60,"It's Never Over, Jeff Buckley","Nunca Acaba, Jeff Buckley",2025,Amy J. Berg,106,4.32,78040,tt34966650,Prime Video
+61,Project Hail Mary,Projeto Hail Mary,2026,"Phil Lord, Christopher Miller",157,4.31,4499526,tt12042730,Prime Video
+62,Det sjunde inseglet,O Sétimo Selo,1957,Ingmar Bergman,96,4.31,445451,tt0050976,MUBI
+63,TAYLOR SWIFT | THE ERAS TOUR,Taylor Swift | THE ERAS TOUR,2023,Sam Wrench,169,4.31,336244,tt28814949,Disney+
+64,13th,A 13ª Emenda,2016,Ava DuVernay,100,4.31,123024,tt5895028,Netflix
+65,Edifício Master,Edifício Master,2002,Eduardo Coutinho,110,4.31,28402,tt0333388,Netflix
+66,Ocean with David Attenborough,Oceano com David Attenborough,2025,"Colin Butfield, Toby Nowlan, Keith Scholey",98,4.31,22773,tt33022710,Disney+
+67,TOMORROW X TOGETHER: OUR LOST SUMMER,Tomorrow X Together: Our Lost Summer,2023,Park Jun-soo,82,4.31,5110,tt28248430,Disney+
+68,Fantastic Mr. Fox,O Fantástico Senhor Raposo,2009,Wes Anderson,87,4.3,3007369,tt0432283,Prime Video
+69,No Country for Old Men,Este País Não É Para Velhos,2007,"Joel Coen, Ethan Coen",122,4.3,2413444,tt0477348,Netflix
+70,The Green Mile,À Espera de Um Milagre,1999,Frank Darabont,189,4.3,1493277,tt0120689,Prime Video|HBO Max
+71,Children of Men,Os Filhos do Homem,2006,Alfonso Cuarón,109,4.3,872388,tt0206634,MUBI
+72,Hamilton,Hamilton,2020,Thomas Kail,160,4.3,760417,tt8503618,Disney+
+73,Life of Crime: 1984-2020,Vida de Crime 1984-2020,2021,Jon Alpert,121,4.3,7091,tt15119154,HBO Max
+74,Jagten,The Hunt - A Caça,2012,Thomas Vinterberg,116,4.29,690559,tt2106476,Prime Video
+75,Les Quatre Cents Coups,Os Quatrocentos Golpes,1959,François Truffaut,99,4.29,303375,tt0053198,MUBI
+76,Jogo de Cena,Jogo de Cena,2007,Eduardo Coutinho,105,4.29,28500,tt1165293,Netflix
+77,Casablanca,Casablanca,1943,Michael Curtiz,102,4.28,884512,tt0034583,HBO Max
+78,ルックバック,Look Back,2024,Kiyotaka Oshiyama,58,4.28,524152,tt31711040,Prime Video
+79,Some Like It Hot,Quanto Mais Quente Melhor,1959,Billy Wilder,121,4.28,423003,tt0053291,MUBI
+80,The Fall,Um Sonho Encantado,2006,Tarsem Singh,117,4.28,257586,tt0460791,MUBI
+81,Offret,O Sacrifício,1986,Andrei Tarkovsky,149,4.28,102150,tt0091670,MUBI
+82,BTS: The Return,BTS: O Regresso,2026,Bao Nguyen,91,4.28,20429,tt39578551,Netflix
+83,Dave Chappelle: Killin' Them Softly,Dave Chappelle: Killin' Them Softly,2000,Stan Lathan,57,4.28,13597,tt0251654,HBO Max
+84,Fight Club,Clube de Combate,1999,David Fincher,139,4.27,6100488,tt0137523,Netflix|Prime Video|Paramount+
+85,重慶森林,Chungking Express,1994,Wong Kar-Wai,97,4.27,840576,tt0109424,MUBI
+86,Noah Kahan: Out of Body,Noah Kahan: Out of Body,2026,Nick Sweeney,94,4.27,29119,tt37172278,Netflix
+87,Saving Private Ryan,O Resgate do Soldado Ryan,1998,Steven Spielberg,169,4.26,1606175,tt0120815,Paramount+
+88,The Sound of Music,A Noviça Rebelde,1965,Robert Wise,174,4.26,733673,tt0059742,Disney+
+89,かぐや姫の物語,O Conto da Princesa Kaguya,2013,Isao Takahata,137,4.26,332483,tt2576852,Netflix
+90,Network,Escândalo na TV,1976,Sidney Lumet,122,4.26,254733,tt0074958,Prime Video|MUBI
+91,Senna,Senna,2010,Asif Kapadia,106,4.26,105019,tt1424432,Prime Video
+92,Za Fâsuto Suramu Danku,The First Slam Dunk,2022,Takehiko Inoue,124,4.26,84562,tt15242330,Netflix
+93,Olivia Rodrigo: GUTS World Tour,Olivia Rodrigo: GUTS World Tour,2024,James B. Merryman,105,4.26,59884,tt33562156,Netflix
+94,The Last Waltz,A Última Valsa,1978,Martin Scorsese,117,4.26,53028,tt0077838,MUBI
+95,Gaga Chromatica Ball,Gaga Chromatica Ball,2024,"Lady Gaga, Nick Knight",113,4.26,26922,tt29794647,HBO Max
+96,Emicida: AmarElo - É Tudo Pra Ontem,Emicida: AmarElo - É Tudo Pra Ontem,2020,Fred Ouro Preto,89,4.26,13657,tt13458600,Netflix
+97,The Weeknd: Live at SoFi Stadium,The Weeknd: Ao Vivo do SoFi Stadium,2023,Micah Bickham,98,4.26,5999,tt26685153,HBO Max
+98,WALL·E,Wall-E,2008,Andrew Stanton,103,4.25,2942962,tt0910970,Disney+
+99,Alien,Alien - O 8.º Passageiro,1979,Ridley Scott,117,4.25,2016295,tt0078748,Disney+
+100,The Bridge on the River Kwai,A Ponte do Rio Kwai,1957,David Lean,162,4.25,128649,tt0050212,Netflix
+101,Anatomy of a Murder,Anatomia de um Crime,1959,Otto Preminger,161,4.25,100935,tt0052561,HBO Max
+102,Inception,A Origem,2010,Christopher Nolan,148,4.24,4472454,tt1375666,Prime Video|HBO Max
+103,Everything Everywhere All at Once,Tudo em Todo o Lado ao Mesmo Tempo,2022,"Daniel Scheinert, Daniel Kwan",139,4.24,4152339,tt6710474,Prime Video|HBO Max
+104,The Grand Budapest Hotel,Grand Budapest Hotel,2014,Wes Anderson,99,4.24,3478507,tt2278388,Disney+
+105,Bo Burnham: Inside,Bo Burnham: Inside,2021,Bo Burnham,88,4.24,499063,tt14544192,Netflix
+106,Metropolis,Metrópolis,1927,Fritz Lang,153,4.24,284234,tt0017136,MUBI
+107,宮﨑駿と青サギと… ～「君たちはどう生きるか」への道～,Hayao Miyazaki e a Garça,2024,Kaku Arakawa,121,4.24,15940,tt32408421,Netflix
+108,Ratatouille,Ratatui,2007,Brad Bird,111,4.23,4053779,tt0382932,Disney+
+109,The Lion King,O Rei Leão,1994,"Roger Allers, Rob Minkoff",89,4.23,2268305,tt0110357,Disney+
+110,2001: A Space Odyssey,2001: Odisseia no Espaço,1968,Stanley Kubrick,161,4.23,1609748,tt0062622,HBO Max
+111,Magnolia,Magnólia,1999,Paul Thomas Anderson,189,4.23,640053,tt0175880,HBO Max
+112,Thelma & Louise,Thelma e Louise,1991,Ridley Scott,130,4.23,606979,tt0103074,MUBI
+113,Meiyazhagan,Meu Querido,2024,C. Prem Kumar,177,4.23,57925,tt26758372,Netflix
+114,Larry David: Curb Your Enthusiasm,Larry David: Curb Your Enthusiasm,1999,Robert B. Weide,59,4.23,21045,tt0218388,HBO Max
+115,The Truman Show,The Truman Show - A Vida em Directo,1998,Peter Weir,103,4.22,5342895,tt0120382,Paramount+
+116,Kill Bill: Vol. 1,Kill Bill - A Vingança (vol. 1),2003,Quentin Tarantino,111,4.22,3579532,tt0266697,Netflix
+117,Back to the Future,Regresso ao Futuro,1985,Robert Zemeckis,116,4.22,2960635,tt0088763,Disney+
+118,Little Miss Sunshine,Uma Família à Beira de um Ataque de Nervos,2006,"Valerie Faris, Jonathan Dayton",102,4.22,2515798,tt0449059,Disney+
+119,Sound of Metal,O Som do Metal,2020,Darius Marder,121,4.22,922823,tt5363618,Prime Video
+120,Dancer in the Dark,Dançando no Escuro,2000,Lars von Trier,140,4.22,228983,tt0168629,MUBI
+121,The Shining,Shining,1980,Stanley Kubrick,144,4.21,3411155,tt0081505,HBO Max
+122,Aftersun,Aftersun,2022,Charlotte Wells,101,4.21,1705940,tt19770238,MUBI
+123,The Wild Robot,Robot Selvagem,2024,Chris Sanders,102,4.21,1444764,tt29623480,Netflix
+124,Boogie Nights,Jogos de Prazer,1997,Paul Thomas Anderson,156,4.21,729235,tt0118749,HBO Max
+125,Raging Bull,O Touro Enraivecido,1980,Martin Scorsese,129,4.21,643027,tt0081398,Prime Video|MUBI
+126,ドライブ・マイ・カー,Conduz o Meu Carro,2021,Ryusuke Hamaguchi,179,4.21,398048,tt14039582,MUBI
+127,రౌద్రం రణం రుధిరం,"RRR: Revolta, Rebelião, Revolução",2022,S. S. Rajamouli,187,4.21,367114,tt8178634,Netflix
+128,Unforgiven,Imperdoável,1992,Clint Eastwood,131,4.21,341915,tt0105695,HBO Max
+129,春光乍洩,Felizes Juntos,1997,Wong Kar-Wai,96,4.21,264067,tt0118845,MUBI
+130,The Sting,Golpe de Mestre,1973,George Roy Hill,129,4.21,228648,tt0070735,Netflix
+131,劇場版ハイキュー!! ゴミ捨て場の決戦,HAIKYU!! A Batalha na Lixeira,2024,Susumu Mitsunaka,84,4.21,126914,tt30476486,HBO Max
+132,リンダ リンダ リンダ,Linda Linda Linda,2005,Nobuhiro Yamashita,115,4.21,90379,tt0468795,MUBI
+133,Bo Burnham: Make Happy,Bo Burnham: Fazer Feliz,2016,"Christopher Storer, Bo Burnham",60,4.21,75417,tt5192124,Netflix
+134,Gladiator,Gladiador,2000,Ridley Scott,155,4.2,2326449,tt0172495,Prime Video
+135,Hamnet,Hamnet: A Vida Antes de Hamlet,2025,Chloé Zhao,125,4.2,1730530,tt14905854,Prime Video
+136,風の谷のナウシカ,Nausicaä do Vale do Vento,1984,Hayao Miyazaki,95,4.2,519323,tt0087544,Netflix
+137,North by Northwest,Intriga Internacional,1959,Alfred Hitchcock,136,4.2,361137,tt0053125,HBO Max
+138,John Mulaney: Kid Gorgeous at Radio City,John Mulaney: Kid Gorgeous at Radio City,2018,Alex Timbers,65,4.2,65004,tt8271714,Netflix
+139,Hannah Gadsby: Nanette,Hannah Gadsby: Nanette,2018,"Madeleine Parry, Jon Olb",69,4.2,37981,tt8465676,Netflix
+140,David Attenborough: A Life on Our Planet,David Attenborough: Uma Vida no Nosso Planeta,2020,"Alastair Fothergill, Keith Scholey, Jonathan Hughes",83,4.2,33607,tt11989890,Netflix
+141,Daughters,Filhas,2024,"Natalie Rae, Angela Patton",108,4.2,14678,tt12336480,Netflix
+142,பரியேறும் பெருமாள்,Pariyerum Perumal BA.BL,2018,Mari Selvaraj,155,4.2,13997,tt8176054,Prime Video
+143,新劇場版 銀魂 -吉原大炎上-,Gintama: Yoshiwara em Chamas,2026,Naoya Ando,124,4.2,3351,tt37931873,Netflix
+144,Forrest Gump,Forrest Gump,1994,Robert Zemeckis,142,4.19,4307675,tt0109830,Paramount+
+145,Little Women,Mulherzinhas,2019,Greta Gerwig,135,4.19,3047731,tt3281548,Netflix
+146,となりのトトロ,O Meu Vizinho Totoro,1988,Hayao Miyazaki,86,4.19,2155562,tt0096283,Netflix
+147,Moonlight,Moonlight,2016,Barry Jenkins,112,4.19,1577968,tt4975722,Prime Video
+148,Full Metal Jacket,Full Metal Jacket - Nascido Para Matar,1987,Stanley Kubrick,117,4.19,1167869,tt0093058,HBO Max
+149,Klaus,Klaus,2019,Sergio Pablos,96,4.19,705295,tt4729430,Netflix
+150,Citizen Kane,O Mundo a Seus Pés,1941,Orson Welles,119,4.19,686926,tt0033467,HBO Max
+151,耳をすませば,O Sussurro do Coração,1995,Yoshifumi Kondo,111,4.19,500555,tt0113824,Netflix
+152,Amores perros,Amor Cão,2000,Alejandro G. Iñárritu,154,4.19,320674,tt0245712,MUBI
+153,Todo sobre mi madre,Tudo Sobre a Minha Mãe,1999,Pedro Almodóvar,101,4.19,311360,tt0185125,Prime Video|MUBI
+154,Ma vie de courgette,A Minha Vida de Courgette,2016,Claude Barras,66,4.19,293498,tt2321405,Prime Video
+155,Sans soleil,Sem Sol,1983,Chris Marker,100,4.19,49278,tt0084628,MUBI
+156,Bo Burnham: The Inside Outtakes,Bo Burnham: The Inside Outtakes,2022,Bo Burnham,63,4.19,37934,tt20770080,Netflix
+157,Every Brilliant Thing,Every Brilliant Thing,2016,"Randy Barbato, Fenton Bailey",60,4.19,3481,tt7455360,HBO Max
+158,The Matrix,Matrix,1999,"Lana Wachowski, Lilly Wachowski",136,4.18,3107053,tt0133093,HBO Max
+159,Mulan,Mulan,1998,"Tony Bancroft, Barry Cook",88,4.18,1409125,tt0120762,Disney+
+160,12 Years a Slave,12 Anos Escravo,2013,Steve McQueen,133,4.18,764920,tt2024544,Prime Video|Paramount+|MUBI
+161,Cléo de 5 à 7,Duas Horas na Vida de Uma Mulher,1962,Agnès Varda,90,4.18,267058,tt0055852,MUBI
+162,Dogville,Dogville,2003,Lars von Trier,178,4.18,221240,tt0276919,MUBI
+163,도가니,Em Silêncio,2011,Hwang Dong-hyuk,125,4.18,94793,tt2070649,Netflix
+164,Viskningar och rop,Lágrimas e Suspiros,1972,Ingmar Bergman,91,4.18,89432,tt0069467,MUBI
+165,"Summer of Soul (...Or, When the Revolution Could Not Be Televised)","Summer of Soul (...Ou, Quando a Revolução Não Pôde ser Televisionada)",2021,Questlove,117,4.18,61652,tt7378922,Disney+
+166,Pixote: A Lei do Mais Fraco,Pixote: A Lei do Mais Fraco,1980,Héctor Babenco,127,4.18,61367,tt0082912,Netflix|MUBI
+167,Mula sa Kung Ano ang Noon,Do Que Vem Antes,2014,Lav Diaz,345,4.18,3762,tt3303310,MUBI
+168,Black Swan,Cisne Negro,2010,Darren Aronofsky,108,4.17,3389373,tt0947798,Disney+
+169,Mad Max: Fury Road,Mad Max: Estrada da Fúria,2015,George Miller,120,4.17,2275379,tt1392190,HBO Max
+170,American History X,América Proibida,1998,Tony Kaye,114,4.17,999387,tt0120586,HBO Max
+171,Butch Cassidy and the Sundance Kid,Dois Homens e um Destino,1969,George Roy Hill,111,4.17,206938,tt0064115,Disney+
+172,"To Wong Foo, Thanks for Everything! Julie Newmar","Para Wong Foo, Obrigado Por Tudo! Julie Newmar",1995,Beeban Kidron,108,4.17,168242,tt0114682,MUBI
+173,The Great Escape,A Grande Evasão,1963,John Sturges,172,4.17,167027,tt0057115,Prime Video
+174,Carandiru,Carandiru,2003,Héctor Babenco,145,4.17,108975,tt0293007,Netflix|MUBI
+175,Rio Bravo,Onde Começa o Inferno,1959,Howard Hawks,141,4.17,80555,tt0053221,HBO Max
+176,봄 여름 가을 겨울 그리고 봄,"Primavera, Verão, Outono, Inverno... E Primavera",2003,Kim Ki-duk,103,4.17,75515,tt0374546,MUBI
+177,The Alabama Solution,Alabama: Presos do Sistema,2025,"Andrew Jarecki, Charlotte Kaufman",117,4.17,40296,tt35307139,HBO Max
+178,Young Royals Forever,Young Royals Forever,2024,Jens von Reis,53,4.17,28602,tt31402962,Netflix
+179,地久天长,"Até Logo, Meu Filho",2019,Wang Xiaoshuai,185,4.17,16359,tt9581076,MUBI
+180,Las tres muertes de Marisela Escobedo,As Três Mortes de Marisela,2020,Carlos Pérez Osorio,109,4.17,11781,tt13206564,Netflix
+181,Star Wars,Star Wars: Episódio IV - Uma Nova Esperança,1977,George Lucas,121,4.16,2848734,tt0076759,Disney+
+182,How to Train Your Dragon,Como Treinares o Teu Dragão,2010,"Dean DeBlois, Chris Sanders",98,4.16,2105884,tt0892769,Prime Video
+183,Past Lives,Vidas Passadas,2023,Celine Song,106,4.16,1873909,tt13238346,Netflix
+184,Scarface,Scarface - A Força do Poder,1983,Brian De Palma,170,4.16,1820646,tt0086250,Netflix|Prime Video
+185,Raiders of the Lost Ark,Os Salteadores da Arca Perdida,1981,Steven Spielberg,115,4.16,1373605,tt0082971,Paramount+
+186,La sociedad de la nieve,A Sociedade da Neve,2023,J. A. Bayona,143,4.16,1217457,tt16277242,Netflix
+187,墮落天使,Anjos Caídos,1995,Wong Kar-Wai,98,4.16,765201,tt0112913,MUBI
+188,On the Waterfront,Há Lodo no Cais,1954,Elia Kazan,108,4.16,164584,tt0047296,Netflix
+189,Cool Hand Luke,O Presidiário,1967,Stuart Rosenberg,127,4.16,135390,tt0061512,HBO Max
+190,Fire of Love,Vulcões: A Tragédia de Katia e Maurice Krafft,2022,Sara Dosa,98,4.16,127634,tt16227014,Disney+
+191,John Mulaney: The Comeback Kid,John Mulaney: The Comeback Kid,2015,Rhys Thomas,62,4.16,55993,tt5069564,Netflix
+192,Megan Thee Stallion: In Her Words,Megan Thee Stallion: In Her Words,2024,Nneka Onuorah,112,4.16,6922,tt33990511,Prime Video
+193,Harry Potter and the Prisoner of Azkaban,Harry Potter e o Prisioneiro de Azkaban,2004,Alfonso Cuarón,141,4.15,3319703,tt0304141,HBO Max
+194,魔女の宅急便,Kiki - A Aprendiz de Feiticeira,1989,Hayao Miyazaki,103,4.15,1290965,tt0097814,Netflix
+195,Sentimental Value,Valor Sentimental,2025,Joachim Trier,135,4.15,1041879,tt27714581,MUBI
+196,"Synecdoche, New York","Sinédoque, Nova York",2009,Charlie Kaufman,124,4.15,300004,tt0383028,MUBI
+197,Que Horas Ela Volta?,Que Horas Ela Volta?,2015,Anna Muylaert,114,4.15,150805,tt3742378,Netflix
+198,Le Bonheur,A Felicidade,1965,Agnès Varda,79,4.15,107812,tt0058985,MUBI
+199,12वीं फेल,12th Fail,2023,Vidhu Vinod Chopra,146,4.15,76431,tt23849204,Netflix
+200,My Father's Shadow,A Sombra do Meu Pai,2025,Akinola Davies Jr.,93,4.15,40529,tt35695538,MUBI
+201,Eles Não Usam Black-Tie,Eles Não Usam Black Tie,1981,Leon Hirszman,122,4.15,19327,tt0082317,Prime Video
+202,Arrival,O Primeiro Encontro,2016,Denis Villeneuve,116,4.14,2734325,tt2543164,HBO Max
+203,Close,Close: Você Perto de Mim,2022,Lukas Dhont,104,4.14,559880,tt9660502,MUBI
+204,Relatos salvajes,Relatos Selvagens,2014,Damián Szifron,122,4.14,284621,tt3011894,HBO Max
+205,Hiroshima mon amour,Hiroshima Meu Amor,1959,Alain Resnais,92,4.14,159900,tt0052893,MUBI
+206,Nueve reinas,Nove Rainhas,2000,Fabián Bielinsky,114,4.14,119170,tt0247586,Disney+
+207,后来的我们,Entre a Terra e o Céu,2018,René Liu,120,4.14,58926,tt8033592,Netflix
+208,Jatuh Cinta Seperti di Film-Film,Falling in Love Like in Movies,2023,Yandy Laurens,118,4.14,52102,tt26903085,Netflix
+209,Wicked: One Wonderful Night,Wicked: One Wonderful Night,2025,Paul Dugdale,84,4.14,19960,tt36963991,Prime Video
+210,The Times of Harvey Milk,Os Tempos de Harvey Milk,1984,Rob Epstein,90,4.14,13595,tt0088275,MUBI
+211,Springsteen on Broadway,Springsteen on Broadway,2018,Thom Zimny,153,4.14,4004,tt8716334,Netflix
+212,White Light/Black Rain: The Destruction of Hiroshima and Nagasaki,Clarão/Chuva Negra: A Destruição de Hiroshima e Nagasaki,2007,Steven Okazaki,86,4.14,2984,tt0911010,HBO Max
+213,Get Out,Foge,2017,Jordan Peele,104,4.13,4780514,tt5052448,Prime Video|Disney+
+214,Coco,Viva: A Vida é uma Festa,2017,Lee Unkrich,110,4.13,3309282,tt2380307,Disney+
+215,Star Wars: Episode III - Revenge of the Sith,Star Wars: Episódio III - A Vingança dos Sith,2005,George Lucas,140,4.13,2474734,tt0121766,Disney+
+216,Jurassic Park,Parque Jurássico,1993,Steven Spielberg,126,4.13,2466284,tt0107290,Netflix|Prime Video|HBO Max|Disney+
+217,1917,1917,2019,Sam Mendes,119,4.13,2007209,tt8579674,Prime Video
+218,Logan,Logan,2017,James Mangold,137,4.13,1565067,tt3315342,Disney+
+219,Fargo,Fargo: Uma Comédia de Erros,1996,Joel Coen,98,4.13,1492739,tt0116282,Prime Video
+220,崖の上のポニョ,Ponyo à Beira-Mar,2008,Hayao Miyazaki,100,4.13,1473069,tt0876563,Netflix
+221,Manchester by the Sea,Manchester à Beira-Mar,2016,Kenneth Lonergan,137,4.13,1184737,tt4034228,HBO Max
+222,Spotlight,O Caso Spotlight,2015,Tom McCarthy,129,4.13,647698,tt1895587,HBO Max
+223,風立ちぬ,As Asas do Vento,2013,Hayao Miyazaki,126,4.13,575309,tt2013293,Netflix
+224,After Hours,Nova Iorque Fora de Horas,1985,Martin Scorsese,97,4.13,539236,tt0088680,HBO Max
+225,C'mon C'mon,Sempre em Frente,2021,Mike Mills,110,4.13,207937,tt10986222,Prime Video|HBO Max
+226,"Yomei Ichinen to Senkoku Sareta Boku ga, Yomei Hantoshi no Kimi to Deatta Hanashi",Até que as cores acabem,2024,Takahiro Miki,118,4.13,98680,tt31078761,Netflix
+227,Breaking the Waves,Ondas de Paixão,1996,Lars von Trier,159,4.13,90073,tt0115751,MUBI
+228,劇場版 ヴァイオレット・エヴァーガーデン,Violet Evergarden - O Filme,2020,Taichi Ishidate,140,4.13,58333,tt8652818,Netflix
+229,The Rescue,Operação: Resgate na Tailândia,2021,"Jimmy Chin, Elizabeth Chai Vasarhelyi",107,4.13,46868,tt9098872,Disney+
+230,Shrek,Shrek,2001,"Andrew Adamson, Vicky Jenson",90,4.12,3008432,tt0126029,Netflix|Prime Video|Disney+
+231,One Battle After Another,Batalha Atrás de Batalha,2025,Paul Thomas Anderson,162,4.12,2868677,tt30144839,HBO Max
+232,Shrek 2,Shrek 2,2004,"Andrew Adamson, Kelly Asbury, Conrad Vernon",92,4.12,2219503,tt0298148,Netflix|Prime Video|Disney+
+233,Anatomie d'une chute,Anatomia de Uma Queda,2023,Justine Triet,151,4.12,1561962,tt17009710,Prime Video
+234,The Banshees of Inisherin,Os Espíritos de Inisherin,2022,Martin McDonagh,114,4.12,1237291,tt11813216,Disney+
+235,Aliens,Aliens: O Recontro Final,1986,James Cameron,137,4.12,962473,tt0090605,Disney+
+236,Indiana Jones and the Last Crusade,Indiana Jones e a Grande Cruzada,1989,Steven Spielberg,127,4.12,886668,tt0097576,Paramount+
+237,Lost Highway,Estrada Perdida,1997,David Lynch,134,4.12,483076,tt0116922,MUBI
+238,The Breadwinner,A Ganha-Pão,2017,Nora Twomey,94,4.12,109244,tt3901826,Prime Video
+239,Ibelin,A Extraordinária Vida de Ibelin,2024,Benjamin Ree,103,4.12,41992,tt19811010,Netflix
+240,Toy Story,Toy Story - Os Rivais,1995,John Lasseter,81,4.11,2758816,tt0114709,Disney+
+241,Return of the Jedi,Star Wars: Episódio VI - O Regresso de Jedi,1983,Richard Marquand,132,4.11,2005767,tt0086190,Disney+
+242,Kill Bill: Vol. 2,Kill Bill - A Vingança (vol. 2),2004,Quentin Tarantino,136,4.11,1981292,tt0378194,Netflix
+243,The Sixth Sense,O Sexto Sentido,1999,M. Night Shyamalan,107,4.11,1594721,tt0167404,Netflix|Disney+
+244,The Royal Tenenbaums,Os Tenenbaums - Uma Comédia Genial,2001,Wes Anderson,110,4.11,1085689,tt0265666,Disney+
+245,Carlito's Way,Perseguido pelo Passado,1993,Brian De Palma,144,4.11,233152,tt0106519,MUBI
+246,Նռան գույնը,Sayat Nova,1969,Sergei Parajanov,80,4.11,110258,tt0063555,MUBI
+247,Ennio,"Ennio, o Maestro",2022,Giuseppe Tornatore,156,4.11,20192,tt3031654,Prime Video
+248,A Gorilla Story: Told by David Attenborough,A História de Um Gorila com David Attenborough,2026,James Reed,90,4.11,7374,tt39314348,Netflix
+249,My Undesirable Friends: Part I - Last Air in Moscow,Meus amigos indesejáveis: Parte 1 - Último ar em Moscou,2025,Julia Loktev,324,4.11,2513,tt33075192,MUBI
+250,Sinners,Pecadores,2025,Ryan Coogler,137,4.1,4887040,tt31193180,HBO Max
+251,Up,UP - Altamente!,2009,Pete Docter,96,4.1,3307288,tt1049413,Disney+
+252,Taxi Driver,Motorista de Táxi,1976,Martin Scorsese,114,4.1,2566012,tt0075314,HBO Max
+253,Blade Runner 2049,Blade Runner 2049,2017,Denis Villeneuve,164,4.1,2346203,tt1856101,HBO Max
+254,Im Westen nichts Neues,A Oeste Nada de Novo,2022,Edward Berger,147,4.1,1260836,tt1016150,Netflix
+255,Paddington 2,Paddington 2,2017,Paul King,104,4.1,745061,tt4468740,Prime Video
+256,Druk,Mais Uma Rodada,2020,Thomas Vinterberg,117,4.1,719323,tt10288566,Netflix
+257,Roma,Roma,2018,Alfonso Cuarón,135,4.1,485986,tt6155172,Netflix
+258,L.A. Confidential,L.A. Confidencial,1997,Curtis Hanson,138,4.1,444279,tt0119488,Paramount+
+259,Adaptation.,Inadaptado,2002,Spike Jonze,114,4.1,338598,tt0268126,HBO Max
+260,Blow Out,Blow Out - Explosão,1981,Brian De Palma,108,4.1,317382,tt0082085,Prime Video
+261,Brazil,Brazil: O Outro Lado do Sonho,1985,Terry Gilliam,136,4.1,296794,tt0088846,Prime Video
+262,Kramer vs. Kramer,Kramer Contra Kramer,1979,Robert Benton,105,4.1,208939,tt0079417,HBO Max
+263,Petite Maman,Petite Maman - Mamã Pequenina,2021,Céline Sciamma,72,4.1,165678,tt13204490,Prime Video|HBO Max
+264,The Bridges of Madison County,As Pontes de Madison County,1995,Clint Eastwood,135,4.1,139032,tt0112579,HBO Max
+265,The Wild Bunch,A Quadrilha Selvagem,1969,Sam Peckinpah,145,4.1,80309,tt0065214,HBO Max
+266,The Hustler,A Vida é um Jogo,1961,Robert Rossen,134,4.1,71579,tt0054997,Disney+
+267,La Noire de...,A negra de…,1966,Ousmane Sembène,65,4.1,69479,tt0060758,MUBI
+268,7번방의 선물,Milagre Na Cela No. 7,2013,Lee Hwan-kyung,127,4.1,48885,tt2659414,Prime Video
+269,Disclosure,Revelação,2020,Sam Feder,107,4.1,30833,tt8637504,Netflix
+270,Racionais: Das Ruas de São Paulo Pro Mundo,Racionais: Das Ruas de São Paulo Pro Mundo,2022,Juliana Vicente,116,4.1,13116,tt22988228,Netflix
+271,Conan O'Brien: The Kennedy Center Mark Twain Prize for American Humor,Conan O'Brien: Prêmio Mark Twain de Humor Americano,2025,,86,4.1,4335,tt35445387,Netflix
+272,Mapanglaw,Melancolia,2008,Lav Diaz,450,4.1,2432,tt1269566,MUBI
+273,Avengers: Infinity War,Vingadores: Guerra do Infinito,2018,"Anthony Russo, Joe Russo",156,4.09,4020093,tt4154756,Disney+
+274,Beautiful Boy,Querido Menino,2018,Felix van Groeningen,121,4.09,1830909,tt1226837,Prime Video
+275,About Time,Dá Tempo ao Tempo,2013,Richard Curtis,123,4.09,1662089,tt2194499,Prime Video
+276,A Clockwork Orange,Laranja Mecânica,1971,Stanley Kubrick,137,4.09,1563958,tt0066921,HBO Max
+277,Blade Runner,Blade Runner: Perigo Iminente,1982,Ridley Scott,118,4.09,1542364,tt0083658,Prime Video|HBO Max
+278,Isle of Dogs,Ilha dos Cães,2018,Wes Anderson,101,4.09,1305428,tt5104604,Disney+
+279,The Prince of Egypt,O Príncipe do Egipto,1998,"Brenda Chapman, Steve Hickner, Simon Wells",99,4.09,622113,tt0120794,Disney+
+280,Minari,Minari - Em Busca da Felicidade,2021,Lee Isaac Chung,115,4.09,540460,tt10633456,Prime Video
+281,La chimera,A Quimera,2023,Alice Rohrwacher,131,4.09,326838,tt14561712,MUBI
+282,Robot Dreams,Robot Dreams – Amigos Improváveis,2023,Pablo Berger,102,4.09,246657,tt13429870,MUBI
+283,The Thin Red Line,A Barreira Invisível,1998,Terrence Malick,171,4.09,219585,tt0120863,Disney+
+284,The Lunchbox,A Lancheira,2013,Ritesh Batra,104,4.09,93486,tt2350496,MUBI
+285,Le Sommet des dieux,Viagem ao Topo da Terra,2021,Patrick Imbert,95,4.09,70304,tt7014378,Netflix
+286,A Vida Invisível,A Vida Invisível,2019,Karim Aïnouz,149,4.09,39673,tt6390668,Netflix|HBO Max
+287,Cuba and the Cameraman,Cuba e o Cameraman,2017,Jon Alpert,113,4.09,10172,tt7320560,Netflix
+288,Frankenstein: The Anatomy Lesson,Frankenstein: A Lição de Anatomia,2025,,45,4.09,8788,tt38906516,Netflix
+289,பேரன்பு,Peranbu,2019,Ram,147,4.09,8129,tt7738784,Prime Video
+290,"Mon Laferte, te amo","Mon Laferte, te amo",2024,"Camila Grandi, Joanna Reposi",77,4.09,4389,tt32090526,Netflix
+291,Flight of the Conchords: Live in London,Flight of the Conchords: Live in London,2018,Hamish Hamilton,88,4.09,3822,tt4978510,HBO Max
+292,Our Planet: Behind the Scenes,Nosso Planeta: Um Outro Ângulo,2019,"Ilaira Mallalieu, Kieran O'Donovan, Huw Cordey, Sophie Lanfear, Hugh Pearson, Gisle Sverdrup",63,4.09,2777,tt10746342,Netflix
+293,"Monsters, Inc.",Monstros e Companhia,2001,Pete Docter,92,4.08,2585546,tt0198781,Disney+
+294,Verdens verste menneske,A Pior Pessoa do Mundo,2021,Joachim Trier,128,4.08,1070580,tt10370710,Prime Video
+295,Hot Fuzz,Hot Fuzz - Esquadrão de Província,2007,Edgar Wright,121,4.08,1037902,tt0425112,Prime Video
+296,ゴジラ-1.0,Godzilla Minus One,2023,Takashi Yamazaki,125,4.08,959075,tt23289160,Netflix
+297,어쩔수가없다,Sem Alternativa,2025,Park Chan-wook,139,4.08,894559,tt1527793,MUBI
+298,天空の城ラピュタ,O Castelo no Céu,1986,Hayao Miyazaki,124,4.08,629585,tt0092067,Netflix
+299,Kneecap,Kneecap - O Trio de Belfast,2024,Rich Peppiatt,105,4.08,234578,tt27367464,Prime Video
+300,JFK,JFK,1991,Oliver Stone,189,4.08,151625,tt0102138,Prime Video
+301,"Saneamento Básico, O Filme","Saneamento Básico, O Filme",2007,Jorge Furtado,112,4.08,111750,tt0907134,Netflix|HBO Max|MUBI
+302,Lazzaro felice,Feliz como Lázaro,2018,Alice Rohrwacher,130,4.08,90844,tt6752992,Netflix
+303,青春18x2 君へと続く道,18 ANOS DEPOIS,2024,Michihito Fujii,124,4.08,73529,tt31039829,Netflix
+304,Homebound,Homebound,2025,Neeraj Ghaywan,119,4.08,51734,tt26733325,Netflix
+305,Hasan Minhaj: Homecoming King,Hasan Minhaj: Homecoming King,2017,Christopher Storer,72,4.08,14273,tt6900644,Netflix
+306,10 Things I Hate About You,10 Coisas Que Odeio em Ti,1999,Gil Junger,97,4.07,4431329,tt0147800,Disney+
+307,Tangled,Entrelaçados,2010,"Byron Howard, Nathan Greno",101,4.07,2630650,tt0398286,Disney+
+308,The Rocky Horror Picture Show,Festival Rocky de Terror,1975,Jim Sharman,100,4.07,949610,tt0073629,Disney+
+309,"Three Billboards Outside Ebbing, Missouri",Três Cartazes à Beira da Estrada,2017,Martin McDonagh,115,4.07,885932,tt5027774,Disney+
+310,Train Dreams,Sonhos e Comboios,2025,Clint Bentley,102,4.07,754188,tt29768334,Netflix
+311,A Few Good Men,Uma Questão de Honra,1992,Rob Reiner,138,4.07,357998,tt0104257,HBO Max
+312,20세기 소녀,20th Century Girl,2022,Bang Woo-ri,119,4.07,323761,tt15340724,Netflix
+313,卧虎藏龍,O Tigre e o Dragão,2000,Ang Lee,120,4.07,293599,tt0190332,Netflix
+314,Free Solo,Free Solo,2018,"Jimmy Chin, Elizabeth Chai Vasarhelyi",100,4.07,254433,tt7775622,Disney+
+315,Strangers on a Train,O Desconhecido do Norte Expresso,1951,Alfred Hitchcock,101,4.07,188959,tt0044079,HBO Max
+316,ゴジラ,O Monstro do Oceano Pacífico,1954,Ishirō Honda,98,4.07,179619,tt0047034,MUBI
+317,Ke zai ni xin di de ming zi,Seu Nome Gravado em Mim,2020,Kuang-Hui Liu,118,4.07,140501,tt10329134,Netflix
+318,The Taking of Pelham One Two Three,O Sequestro do Metrô,1974,Joseph Sargent,105,4.07,87078,tt0072251,Prime Video
+319,Copie conforme,Cópia Certificada,2010,Abbas Kiarostami,106,4.07,75380,tt1020773,MUBI
+320,"São Paulo, Sociedade Anônima","São Paulo, Sociedade Anônima",1965,Luiz Sérgio Person,109,4.07,20762,tt0195324,Netflix
+321,劇場版モノノ怪 第二章 火鼠,Mononoke Movie 2 - Hinezumi,2025,"Kenji Nakamura, Kiyotaka Suzuki",75,4.07,13281,tt35301440,Netflix
+322,Ozzy: No Escape from Now,Ozzy Osbourne: No Escape from Now,2025,Tania Alexander,120,4.07,3936,tt35922832,Paramount+
+323,Gleason,A Luta de Steve,2016,J. Clay Tweel,110,4.07,2796,tt4632316,Prime Video
+324,Elton John Live: Farewell from Dodger Stadium,Elton John: O Show da Despedida,2022,Paul Dugdale,175,4.07,2767,tt22029066,Disney+
+325,Catch Me If You Can,Apanha-me se Puderes,2002,Steven Spielberg,141,4.06,2696670,tt0264464,Paramount+
+326,The Incredibles,The Incredibles - Os Super Heróis,2004,Brad Bird,115,4.06,2555089,tt0317705,Disney+
+327,Toy Story 3,Toy Story 3,2010,Lee Unkrich,103,4.06,1921195,tt0435761,Disney+
+328,Die Hard,Assalto ao Arranha-Céus,1988,John McTiernan,131,4.06,1275636,tt0095016,Disney+
+329,Ford v Ferrari,Le Mans '66: O Duelo,2019,James Mangold,153,4.06,1136928,tt1950186,Disney+
+330,Lilo & Stitch,Lilo e Stitch,2002,"Chris Sanders, Dean DeBlois",85,4.06,1136739,tt0275847,Disney+
+331,Training Day,Dia de Treino,2001,Antoine Fuqua,122,4.06,660115,tt0139654,HBO Max
+332,Homem com H,Homem com H,2025,Esmir Filho,130,4.06,178852,tt35301431,Netflix
+333,The Watermelon Woman,The Watermelon Woman,1997,Cheryl Dunye,85,4.06,119284,tt0118125,MUBI
+334,Au hasard Balthazar,Peregrinação Exemplar,1966,Robert Bresson,95,4.06,69407,tt0060138,MUBI
+335,Super/Man: The Christopher Reeve Story,Super/Man: A História de Christopher Reeve,2024,"Ian Bonhôte, Peter Ettedgui",104,4.06,43785,tt27902121,HBO Max
+336,Crip Camp: A Disability Revolution,Crip Camp: Uma Revolução na Inclusão,2020,"Jim LeBrecht, Nicole Newnham",107,4.06,35956,tt8923484,Netflix
+337,Black Is King,Black Is King: Um Filme de Beyoncé,2020,"Beyoncé, Blitz Bazawule, Emmanuel Adjei, Pierre Debusschere, Ibra Ake, Jake Nava, Dikayl Rimmasch, Jenn Nkiru",85,4.06,25714,tt12607910,Disney+
+338,Dancing with the Birds,Dança dos Pássaros,2019,Huw Cordey,51,4.06,6924,tt11101698,Netflix
+339,We Stand Alone Together: The Men of Easy Company,"Sozinhos, Mas Juntos: Os Homens Da Companhia Easy",2001,Mark Cowen,78,4.06,1788,tt0302022,HBO Max
+340,The Batman,Batman,2022,Matt Reeves,177,4.05,4303870,tt1877830,HBO Max
+341,Snatch,Snatch - Porcos E Diamantes,2000,Guy Ritchie,103,4.05,875802,tt0208092,HBO Max
+342,Million Dollar Baby,Million Dollar Baby - Sonhos Vencidos,2004,Clint Eastwood,132,4.05,512051,tt0405159,Prime Video
+343,Tropa de Elite,Tropa de Elite,2007,José Padilha,115,4.05,214698,tt0861739,Netflix|Prime Video|HBO Max
+344,Miss Americana,Taylor Swift: Miss Americana,2020,Lana Wilson,85,4.05,204492,tt11388580,Netflix
+345,2046,2046 - Os Segredos do Amor,2004,Wong Kar-Wai,128,4.05,154023,tt0212712,MUBI
+346,The Muppet Movie,As Aventuras dos Marretas,1979,James Frawley,97,4.05,147139,tt0079588,Disney+
+347,In the Heat of the Night,No Calor da Noite,1967,Norman Jewison,109,4.05,99500,tt0061811,Prime Video
+348,Moonage Daydream,Moonage Daydream,2022,Brett Morgen,135,4.05,92630,tt9883832,MUBI
+349,ओम शांति ओम,Om Shanti Om,2007,Farah Khan,169,4.05,86018,tt1024943,Netflix
+350,Ya no estoy aquí,Ya no estoy aquí,2020,Luis Fernando Frías de la Parra,112,4.05,78909,tt4323594,Netflix
+351,சார்பட்டா பரம்பரை,Sarpatta Parambarai,2021,Pa. Ranjith,174,4.05,21177,tt11580854,Prime Video
+352,My Mom Jayne,"*My Mom, Jayne: A Film by Mariska Hargitay*",2025,Mariska Hargitay,106,4.05,18333,tt36464353,HBO Max
+353,The Last Days,Os Últimos Dias,1998,James Moll,87,4.05,6704,tt0174852,Netflix
+354,The Perks of Being a Wallflower,As Vantagens de Ser Invisível,2012,Stephen Chbosky,103,4.04,3637123,tt1659337,Netflix
+355,Harry Potter and the Deathly Hallows: Part 2,Harry Potter e os Talismãs da Morte: Parte 2,2011,David Yates,130,4.04,2404458,tt1201607,HBO Max
+356,Jojo Rabbit,Jojo Rabbit,2019,Taika Waititi,108,4.04,2365797,tt2584384,Disney+
+357,Uptown Girls,Uptown Girls - Meninas Bem,2003,Boaz Yakin,92,4.04,939444,tt0263757,Prime Video
+358,紅の豚,Porco Rosso - O Porquinho Voador,1992,Hayao Miyazaki,94,4.04,614116,tt0104652,Netflix
+359,Chicago,Chicago,2002,Rob Marshall,113,4.04,537171,tt0299658,Netflix
+360,The Muppet Christmas Carol,O Conto de Natal dos Marretas,1992,Brian Henson,85,4.04,385645,tt0104940,Disney+
+361,Judas and the Black Messiah,Judas e o Messias Negro,2021,Shaka King,125,4.04,345355,tt9784798,HBO Max
+362,악마를 보았다,Eu Vi o Diabo,2010,Kim Jee-woon,144,4.04,343724,tt1588170,MUBI
+363,Loving Vincent,A Paixão de Van Gogh,2017,"Hugh Welchman, DK Welchman",94,4.04,281118,tt3262342,Prime Video
+364,Laapataa Ladies,Troca Surpresa,2024,Kiran Rao,122,4.04,80107,tt21626284,Netflix
+365,Laurence Anyways,Laurence para Sempre,2012,Xavier Dolan,168,4.04,74748,tt1650048,MUBI
+366,दिलवाले दुल्हनिया ले जायेंगे,Dilwale Dulhania Le Jayenge,1995,Aditya Chopra,190,4.04,58947,tt0112870,Netflix
+367,Crossing,Crossing - A Travessia,2024,Levan Akin,106,4.04,49901,tt27417166,MUBI
+368,Lavoura Arcaica,Lavoura Arcaica,2001,Luiz Fernando Carvalho,171,4.04,4686,tt0241663,MUBI
+369,ヴァイオレット・エヴァーガーデン 特別編集版,Violet Evergarden: Recordações,2021,"Taichi Ishidate, Haruka Fujita",96,4.04,3837,tt25041020,Netflix
+370,Emicida: AmarElo – Ao Vivo,Emicida: AmarElo – Ao Vivo,2021,Fred Ouro Preto,99,4.04,1301,tt14910946,Netflix
+371,Zodiac,Zodíaco,2007,David Fincher,157,4.03,2176116,tt0443706,HBO Max
+372,Pirates of the Caribbean: The Curse of the Black Pearl,Piratas das Caraíbas: A Maldição do Pérola Negra,2003,Gore Verbinski,143,4.03,2168790,tt0325980,Disney+
+373,Carol,Carol,2015,Todd Haynes,118,4.03,686802,tt2402927,Prime Video
+374,The Assassination of Jesse James by the Coward Robert Ford,O Assassinato de Jesse James pelo Covarde Robert Ford,2007,Andrew Dominik,160,4.03,211657,tt0443680,HBO Max
+375,Ed Wood,Ed Wood,1994,Tim Burton,127,4.03,187442,tt0109707,Disney+
+376,Estômago,Estômago,2008,Marcos Jorge,113,4.03,104902,tt1039960,Netflix
+377,Pusher II,Pusher II: Mãos de Sangue,2004,Nicolas Winding Refn,100,4.03,84159,tt0396184,MUBI
+378,The Verdict,O Veredicto,1982,Sidney Lumet,129,4.03,65676,tt0084855,Disney+
+379,Twin Peaks: The Missing Pieces,Twin Peaks: O Mistério,2014,David Lynch,91,4.03,56303,tt5334704,MUBI
+380,How Green Was My Valley,O Vale era Verde,1941,John Ford,118,4.03,37555,tt0033729,Disney+
+381,Meu Pé de Laranja Lima,O Meu Pé de Laranja Lima,2012,Marcos Bernstein,99,4.03,21283,tt2402186,Prime Video
+382,सरदार उधम,Sardar Udham,2021,Shoojit Sircar,162,4.03,17381,tt10280296,Prime Video
+383,The Venture Bros.: Radiant Is the Blood of the Baboon Heart,The Venture Bros. - Radiant Is the Blood of the Baboon Heart,2023,Christopher McCulloch,84,4.03,11548,tt14636186,HBO Max
+384,Jacqueline Novak: Get on Your Knees,Jacqueline Novak: Get on Your Knees,2024,Natasha Lyonne,94,4.03,4701,tt30402897,Netflix
+385,The Stroll,The Stroll: As Trabalhadoras da Rua 14,2023,"Zackary Drucker, Kristen Parker Lovell",84,4.03,4441,tt24079774,HBO Max
+386,Avengers: Endgame,Vingadores: Endgame,2019,"Anthony Russo, Joe Russo",181,4.02,3966725,tt4154796,Disney+
+387,Marty Supreme,Marty Supreme,2025,Josh Safdie,149,4.02,3124592,tt32916440,Prime Video
+388,Finding Nemo,À Procura de Nemo,2003,Andrew Stanton,100,4.02,2611099,tt0266543,Disney+
+389,Scream,Gritos,1996,Wes Craven,112,4.02,2361627,tt0117571,Paramount+
+390,Marriage Story,História de um Casamento,2019,Noah Baumbach,136,4.02,1450686,tt7653254,Netflix
+391,The Pursuit of Happyness,Em Busca da Felicidade,2006,Gabriele Muccino,117,4.02,1222863,tt0454921,HBO Max
+392,Primal Fear,A Raiz do Medo,1996,Gregory Hoblit,129,4.02,634384,tt0117381,Netflix
+393,Mars Express,Mars Express,2023,Jérémie Périn,88,4.02,88307,tt26915336,Prime Video
+394,Bicho de Sete Cabeças,Bicho de Sete Cabeças,2001,Laís Bodanzky,84,4.02,61985,tt0263124,Netflix
+395,O Homem Que Copiava,O Homem Que Copiava,2003,Jorge Furtado,123,4.02,58324,tt0367859,Netflix
+396,余命10年,Os Últimos 10 Anos,2022,Michihito Fujii,124,4.02,53730,tt16444750,HBO Max
+397,Shirkers,Shirkers - O Filme Roubado,2018,Sandi Tan,96,4.02,42257,tt7472352,Netflix
+398,Terra Estrangeira,Terra Estrangeira,1996,"Walter Salles, Daniela Thomas",100,4.02,34447,tt0114651,Netflix
+399,Music by John Williams,A Música de John Williams,2024,Laurent Bouzereau,106,4.02,21754,tt26420234,Disney+
+400,Jane,Jane: a Mãe dos Chimpanzés,2017,Brett Morgen,90,4.02,12708,tt7207238,Disney+
+401,Lilith Fair: Building a Mystery,Lilith Fair: Construindo um Mistério,2025,Ally Pankiw,99,4.02,7085,tt32915874,Disney+
+402,Hot Potato: The Story of The Wiggles,Hot Potato: The Story of The Wiggles,2023,Sally Aitken,104,4.02,4805,tt22694238,Prime Video
+403,In Jackson Heights,Em Jackson Heights,2015,Frederick Wiseman,190,4.02,3033,tt4936064,MUBI
+404,Oprah Winfrey Presents: When They See Us Now,Oprah Winfrey Apresenta: Aos Olhos da Justiça de Hoje,2019,Mark Ritchie,61,4.02,2074,tt10484298,Netflix
+405,The Lego Batman Movie,Lego Batman: O Filme,2017,Chris McKay,104,4.01,1221955,tt4116284,HBO Max
+406,The Favourite,A Favorita,2018,Yorgos Lanthimos,120,4.01,957013,tt5083738,Disney+
+407,Mission: Impossible - Fallout,Missão: Impossível - Fallout,2018,Christopher McQuarrie,147,4.01,782589,tt4912910,Netflix|Paramount+
+408,La Planète sauvage,O Planeta Selvagem,1973,René Laloux,72,4.01,306736,tt0070544,MUBI
+409,Planet of the Apes,O Homem Que Veio do Futuro,1968,Franklin J. Schaffner,112,4.01,258485,tt0063442,Disney+
+410,Bringing Up Baby,As duas 'Feras',1938,Howard Hawks,102,4.01,120947,tt0029947,HBO Max
+411,Dane-ye anjir-e ma'abed,A Semente do Fruto Sagrado,2024,Mohammad Rasoulof,167,4.01,117578,tt32178949,MUBI
+412,ज़िन्दगी ना मिलेगी दोबारा,Três Amigos na Estrada,2011,Zoya Akhtar,154,4.01,75093,tt1562872,Netflix
+413,Real Women Have Curves,Mulheres de Verdade Têm Curvas,2002,Patricia Cardoso,90,4.01,46875,tt0296166,HBO Max
+414,El Infierno,O Inferno,2010,Luis Estrada,148,4.01,43647,tt1692190,Netflix
+415,Mouchette,Amor e Morte,1967,Robert Bresson,81,4.01,33202,tt0061996,MUBI
+416,Empire of Dreams: The Story of the Star Wars Trilogy,Império dos Sonhos: A História da Trilogia Star Wars,2004,"Edith Becker, Kevin Burns",151,4.01,14061,tt0416716,Disney+
+417,"Rio, 40 Graus","Rio, 40 Graus",1955,Nelson Pereira dos Santos,91,4.01,13603,tt0048572,Netflix
+418,ハチ公物語,Hachiko - Um Amigo Para Sempre,1987,Seijiro Koyama,107,4.01,11791,tt0093132,Prime Video
+419,Chris Fleming: Live at The Palace,Chris Fleming ao Vivo no Cadillac Palace,2026,Bill Benz,75,4.01,7433,tt39765131,HBO Max
+420,Léon,"Léon, o Profissional",1994,Luc Besson,110,4,1509742,tt0110413,HBO Max
+421,부산행,Train to Busan,2016,Yeon Sang-ho,118,4,1317153,tt5700672,Netflix|Prime Video
+422,Birdman or (The Unexpected Virtue of Ignorance),Birdman ou (A Inesperada Virtude da Ignorância),2014,Alejandro G. Iñárritu,120,4,1262935,tt2562232,HBO Max
+423,The Princess and the Frog,A Princesa e o Sapo,2009,"Ron Clements, John Musker",98,4,1177056,tt0780521,Disney+
+424,Guillermo del Toro's Pinocchio,Pinóquio de Guillermo del Toro,2022,"Mark Gustafson, Guillermo del Toro",117,4,717327,tt1488589,Netflix
+425,Misery,Misery: O Capítulo Final,1990,Rob Reiner,107,4,677298,tt0100157,MUBI
+426,The Fly,A Mosca,1986,David Cronenberg,96,4,578763,tt0091064,Disney+
+427,Un simple accident,Foi só um Acidente,2025,Jafar Panahi,104,4,345580,tt36491653,MUBI
+428,The French Connection,Os Incorruptíveis Contra a Droga,1971,William Friedkin,104,4,217730,tt0067116,Disney+
+429,Fruitvale Station,Fruitvale Station: A Última Paragem,2013,Ryan Coogler,82,4,174882,tt2334649,Prime Video
+430,"Argentina, 1985","Argentina, 1985",2022,Santiago Mitre,140,4,171916,tt15301048,Prime Video
+431,Miller's Crossing,História de Gangsters,1990,Joel Coen,115,4,153618,tt0100150,Disney+
+432,ひゃくえむ。,100 Meters,2025,Kenji Iwaisawa,107,4,124746,tt32600395,Netflix
+433,Peau d'âne,Pele de Asno,1970,Jacques Demy,90,4,107394,tt0066207,MUBI
+434,Bastarden,A Terra Prometida,2023,Nikolaj Arcel,127,4,76028,tt20561198,Prime Video|Paramount+
+435,Phoenix,Fênix,2014,Christian Petzold,98,4,53891,tt2764784,MUBI
+436,O Filho de Mil Homens,O Filho de Mil Homens,2025,Daniel Rezende,126,4,21751,tt33402908,Netflix
+437,Winter on Fire: Ukraine's Fight for Freedom,Winter on Fire: Ukraine's Fight for Freedom,2015,Evgeny Afineevsky,98,4,16630,tt4908644,Netflix
+438,Trenque Lauquen,Trenque Lauquen,2022,Laura Citarella,262,4,13028,tt21378968,HBO Max
+439,Selena y Los Dinos: A Family's Legacy,Selena y Los Dinos: O Legado de Uma Família,2025,Isabel Castro,117,4,7024,tt34963797,Netflix
+440,4 Little Girls,Quatro Meninas,1997,Spike Lee,102,4,6443,tt0118540,HBO Max
+441,Jane Fonda in Five Acts,Jane Fonda em Cinco Atos,2018,Susan Lacy,133,4,6185,tt7689958,HBO Max
+442,Sally,Sally: Nas Estrelas e no Coração,2025,Cristina Costantini,103,4,6163,tt31193771,Disney+
+443,Filho da Mãe,Filho da Mãe,2022,Susana Garcia,111,4,5987,tt21339834,Prime Video
+444,Babilônia 2000,Babilônia 2000,2001,Eduardo Coutinho,80,4,5656,tt0273100,Netflix
+445,Alex Edelman: Just for Us,Alex Edelman: Just for Us,2024,Alex Timbers,84,4,2863,tt31727542,HBO Max
+446,Guardians of the Galaxy Vol. 3,Guardiões da Galáxia: Volume 3,2023,James Gunn,150,3.99,2382674,tt6791350,Disney+
+447,Batman: Under the Red Hood,Batman Contra o Capuz Vermelho,2010,Brandon Vietti,75,3.99,179653,tt1569923,HBO Max
+448,Beasts of No Nation,Feras de Lugar Nenhum,2015,Cary Joji Fukunaga,133,3.99,106464,tt1365050,Netflix
+449,Große Freiheit,Grande Liberdade,2021,Sebastian Meise,116,3.99,37294,tt14775784,MUBI
+450,O Menino e o Mundo,O Menino e o Mundo,2014,Alê Abreu,80,3.99,20334,tt3183630,Prime Video
+451,Asuran,Asuran,2019,Vetrimaaran,141,3.99,19541,tt9477520,Prime Video
+452,Holocausto Brasileiro,Holocausto Brasileiro,2016,"Armando Mendz, Daniela Arbex",90,3.99,13623,tt6410688,Netflix
+453,Donnie Darko,Donnie Darko,2001,Richard Kelly,114,3.98,2535850,tt0246578,Prime Video
+454,Top Gun: Maverick,Top Gun: Maverick,2022,Joseph Kosinski,131,3.98,2408902,tt1745960,Paramount+
+455,Eyes Wide Shut,De Olhos Bem Fechados,1999,Stanley Kubrick,159,3.98,1558356,tt0120663,Netflix|HBO Max
+456,Who Framed Roger Rabbit,Quem Tramou Roger Rabbit?,1988,Robert Zemeckis,104,3.98,493918,tt0096438,Disney+
+457,Dìdi (弟弟),Caçula,2024,Sean Wang,94,3.98,333351,tt30319503,Netflix
+458,मैं वापस आऊंगा,Eu Vou Voltar,2026,Imtiaz Ali,167,3.98,31111,tt37333137,Netflix
+459,Jigarthanda DoubleX,Jigarthanda DoubleX,2023,Karthik Subbaraj,172,3.98,26825,tt24226474,Netflix
+460,آفساید,Fora-de-Jogo,2006,Jafar Panahi,93,3.98,18223,tt0499537,MUBI
+461,Revanche,Revanche,2008,Götz Spielmann,121,3.98,17452,tt1173745,MUBI
+462,آینه,O Espelho,1997,Jafar Panahi,94,3.98,11036,tt0117056,MUBI
+463,The Crystal Calls - Making The Dark Crystal: Age of Resistance,Por Dentro do Cristal - Os Bastidores de O Cristal Encantado: A Era da Resistência,2019,Randall Lobb,83,3.98,3501,tt10924716,Netflix
+464,The Nightmare Before Christmas,O Estranho Mundo de Jack,1993,Henry Selick,76,3.97,1986707,tt0107688,Disney+
+465,"Girl, Interrupted",Vida Interrompida,1999,James Mangold,127,3.97,1593698,tt0172493,HBO Max
+466,Good Time,Bom Comportamento,2017,"Benny Safdie, Josh Safdie",101,3.97,836168,tt4846232,Prime Video
+467,The Help,As Serviçais,2011,Tate Taylor,146,3.97,791967,tt1454029,Disney+
+468,Slumdog Millionaire,Quem Quer Ser Bilionário?,2008,Danny Boyle,121,3.97,737420,tt1010048,Prime Video
+469,Nimona,Nimona,2023,"Nick Bruno, Troy Quane",99,3.97,446807,tt19500164,Netflix
+470,The Little Prince,O Principezinho,2015,Mark Osborne,108,3.97,228537,tt1754656,Netflix|Prime Video
+471,La Passion de Dodin Bouffant,O Sabor da Vida,2023,Trần Anh Hùng,135,3.97,99315,tt19760052,Prime Video
+472,Icarus,Ícaro,2017,Bryan Fogel,121,3.97,74535,tt6333060,Netflix
+473,Monster High: 13 Wishes,Monster High: 13 Desejos,2013,Steve Sacks,73,3.97,67907,tt3159812,Prime Video
+474,Aquarius,Aquarius,2016,Kleber Mendonça Filho,147,3.97,63593,tt5221584,Netflix
+475,John Candy: I Like Me,John Candy: Eu Gosto de Mim,2025,Colin Hanks,113,3.97,38072,tt26683420,Prime Video
+476,OLIVIA RODRIGO: driving home 2 u (a SOUR film),OLIVIA RODRIGO: dirigindo até você (SOUR: o filme),2022,Stacey Lee,76,3.97,33066,tt18269838,Disney+
+477,Diego Maradona,Diego Maradona,2019,Asif Kapadia,120,3.97,31093,tt5433114,Netflix
+478,Witches,Bruxas,2024,Elizabeth Sankey,90,3.97,25358,tt32141590,MUBI
+479,Three of Us,Three of Us,2023,Avinash Arun,99,3.97,19508,tt23804378,Netflix
+480,"Marty, Life Is Short",Martin Short: Uma Vida de Comédia,2026,Lawrence Kasdan,102,3.97,16938,tt39382052,Netflix
+481,Virunga,Virunga,2014,Orlando von Einsiedel,100,3.97,8691,tt3455224,Netflix
+482,Made in England: The Films of Powell and Pressburger,Made in England: Os Filmes de Powell e Pressburger,2024,David Hinton,133,3.97,8108,tt19895822,MUBI
+483,Tempestad,Tempestade,2017,Tatiana Huezo,105,3.97,7257,tt3800560,Netflix
+484,Uncut Gems,Diamante Bruto,2019,"Josh Safdie, Benny Safdie",135,3.96,1811899,tt5727208,Netflix
+485,American Gangster,Gangster Americano,2007,Ridley Scott,157,3.96,411105,tt0765429,Netflix|Prime Video
+486,God's Own Country,O Reino de Deus,2017,Francis Lee,104,3.96,174821,tt5635086,Prime Video
+487,"The Adventures of Priscilla, Queen of the Desert","Priscilla, Rainha do Deserto",1994,Stephan Elliott,103,3.96,143236,tt0109045,MUBI
+488,The Big Sleep,À Beira do Abismo,1946,Howard Hawks,114,3.96,96268,tt0038355,HBO Max
+489,Giù la testa,"Aguenta-te, Canalha!",1971,Sergio Leone,157,3.96,45573,tt0067140,Prime Video
+490,Estiu 1993,Verão 1993,2017,Carla Simón,96,3.96,34828,tt5897636,MUBI
+491,वीर-ज़ारा,Veer-Zaara,2004,Yash Chopra,192,3.96,33493,tt0420332,Netflix
+492,วิมานหนาม,O Paraíso dos Espinhos,2024,Naruebet Kuno,131,3.96,21299,tt32362515,Netflix
+493,The Miracle Worker,O Milagre de Anne Sullivan,1962,Arthur Penn,107,3.96,18695,tt0056241,Prime Video
+494,Simón,Simón,2023,Diego Vincentini,99,3.96,10292,tt13580840,Netflix
+495,Mary Beth Barone: Galaxy Brain,Mary Beth Barone: Galaxy Brain,2026,Ky Newman,60,3.96,7997,tt38843957,Netflix
+496,Chronique des Années de Braise,Crônica dos Anos de Fogo,1975,Mohammed Lakhdar-Hamina,177,3.96,3118,tt0072782,MUBI
+497,Happier Than Ever: A Love Letter to Los Angeles,Happier Than Ever: Carta de Amor a Los Angeles,2021,David Clair,65,3.96,2043,tt16022750,Disney+
+498,Nate: A One Man Show,Natalie Palamides: Nate - A One Man Show,2020,Phil Burgers,59,3.96,1615,tt10798934,Netflix
+499,Chris Gethard: Career Suicide,Chris Gethard: Career Suicide,2017,Kimberly Senior,89,3.96,1443,tt6794460,HBO Max
+500,Imagine Dragons Live in Vegas,Imagine Dragons Live in Vegas,2023,Matt Eastin,121,3.96,1248,tt27805539,Disney+
