@@ -1,5 +1,6 @@
 """Etapa 1: catálogo de filmes por assinatura (flatrate) no JustWatch BR."""
 import csv, json, time, urllib.request
+from datetime import datetime, timedelta
 from collections import Counter
 
 API = "https://apis.justwatch.com/graphql"
@@ -11,8 +12,13 @@ SERVICOS = {
     "dnp": "Disney+",
     "pmp": "Paramount+", "ppp": "Paramount+",
     "mbi": "MUBI",
+    # Telecine e Universal+ só existem no JustWatch BR como canais Amazon;
+    # o catálogo é usado como aproximação do que a Claro oferece
+    "atl": "Telecine",
+    "auc": "Universal+",
 }
-CONSULTAR = ["nfx", "prv", "mxx", "dnp", "pmp", "mbi"]
+CONSULTAR = ["nfx", "prv", "mxx", "dnp", "pmp", "mbi", "atl", "auc"]
+ORDEM = ["Netflix", "Prime Video", "HBO Max", "Disney+", "Paramount+", "MUBI", "Telecine", "Universal+"]
 DURACAO_MIN = 40
 
 Q = """query($after:String,$pkg:[String!],$y0:Int,$y1:Int){
@@ -23,7 +29,7 @@ Q = """query($after:String,$pkg:[String!],$y0:Int,$y1:Int){
   edges{node{objectId
    content(country:BR,language:"pt"){title originalTitle originalReleaseYear runtime
      externalIds{imdbId} scoring{imdbScore imdbVotes}}
-   offers(country:BR,platform:WEB){monetizationType package{shortName}}}}}}"""
+   offers(country:BR,platform:WEB){monetizationType availableToTime package{shortName}}}}}}"""
 
 
 def gql(variables):
@@ -40,6 +46,23 @@ def gql(variables):
             print("  erro:", e, "- tentando de novo")
             time.sleep(5 * (tentativa + 1))
     raise SystemExit("JustWatch falhou 5 vezes")
+
+
+def datas_saida(ofertas):
+    """Serviço -> data de saída (AAAA-MM-DD, horário de Brasília).
+
+    Um serviço pode ter várias ofertas (SD/HD/4K); só há data de saída se todas
+    tiverem uma, e vale a mais tardia.
+    """
+    por_serv = {}
+    for o in ofertas:
+        por_serv.setdefault(SERVICOS[o["package"]["shortName"]], []).append(o["availableToTime"])
+    saidas = {}
+    for serv, datas in por_serv.items():
+        if datas and all(datas):
+            fim = max(datetime.fromisoformat(d.replace("Z", "+00:00")) for d in datas)
+            saidas[serv] = (fim - timedelta(hours=3)).date().isoformat()
+    return saidas
 
 
 def buscar(pkg, y0=None, y1=None):
@@ -71,9 +94,9 @@ def main():
         print(f"{SERVICOS[pkg]}: {len(nos)} títulos retornados")
         for n in nos:
             c = n["content"]
-            servs = {SERVICOS[o["package"]["shortName"]] for o in n["offers"] or []
-                     if o["monetizationType"] == "FLATRATE" and o["package"]["shortName"] in SERVICOS}
-            servs.add(SERVICOS[pkg])
+            ofertas = [o for o in n["offers"] or []
+                       if o["monetizationType"] == "FLATRATE" and o["package"]["shortName"] in SERVICOS]
+            servs = {SERVICOS[o["package"]["shortName"]] for o in ofertas} | {SERVICOS[pkg]}
             f = filmes.setdefault(n["objectId"], {
                 "jw_id": n["objectId"], "titulo_pt": c["title"],
                 "titulo_original": c["originalTitle"] or c["title"],
@@ -81,8 +104,10 @@ def main():
                 "imdb_id": (c["externalIds"] or {}).get("imdbId") or "",
                 "imdb_nota": (c["scoring"] or {}).get("imdbScore") or "",
                 "imdb_votos": (c["scoring"] or {}).get("imdbVotes") or "",
-                "servicos": set()})
+                "servicos": set(), "saidas": {}})
             f["servicos"] |= servs
+            for serv, data in datas_saida(ofertas).items():
+                f["saidas"][serv] = data
 
     # junta duplicatas com o mesmo IMDb ID (títulos distintos no JustWatch)
     por_imdb = {}
@@ -90,6 +115,7 @@ def main():
         if f["imdb_id"]:
             if f["imdb_id"] in por_imdb:
                 por_imdb[f["imdb_id"]]["servicos"] |= f["servicos"]
+                por_imdb[f["imdb_id"]]["saidas"].update(f["saidas"])
                 del filmes[f["jw_id"]]
             else:
                 por_imdb[f["imdb_id"]] = f
@@ -99,18 +125,20 @@ def main():
         del filmes[k]
     sem_duracao = sum(1 for f in filmes.values() if f["duracao_min"] == "")
 
-    ordem = ["Netflix", "Prime Video", "HBO Max", "Disney+", "Paramount+", "MUBI"]
+    ordem = ORDEM
     campos = ["jw_id", "titulo_pt", "titulo_original", "ano", "duracao_min",
-              "imdb_id", "imdb_nota", "imdb_votos", "servicos"]
+              "imdb_id", "imdb_nota", "imdb_votos", "servicos", "sai_em"]
     with open("data/catalogo.csv", "w", newline="", encoding="utf-8") as fh:
-        w = csv.DictWriter(fh, campos)
+        w = csv.DictWriter(fh, campos, extrasaction="ignore")
         w.writeheader()
         for f in sorted(filmes.values(), key=lambda f: (str(f["titulo_original"]).lower())):
-            w.writerow({**f, "servicos": "|".join(s for s in ordem if s in f["servicos"])})
+            w.writerow({**f, "servicos": "|".join(s for s in ordem if s in f["servicos"]),
+                        "sai_em": "|".join(f"{s}:{f['saidas'][s]}" for s in ordem if s in f["saidas"])})
 
     cont = Counter(s for f in filmes.values() for s in f["servicos"])
     print(f"\nCurtas descartados (< {DURACAO_MIN} min): {len(curtas)}")
     print(f"Sem duração informada (mantidos): {sem_duracao}")
+    print(f"Com data de saída: {sum(1 for f in filmes.values() if f['saidas'])}")
     print(f"Filmes únicos: {len(filmes)}  (com IMDb ID: {sum(1 for f in filmes.values() if f['imdb_id'])})")
     for s in ordem:
         print(f"  {s:12} {cont[s]}")
