@@ -13,7 +13,7 @@ Uso: python3 scripts/saindo.py <jw_datas.json> <mubi films.json.gz> <lista.json>
   lista.json:    [{"titulo", "ano", "data"}], com "servico" e "fonte" no nome
                  do arquivo ou nos itens
 """
-import csv, gzip, json, re, sys, unicodedata
+import csv, gzip, json, re, sys, time, unicodedata, urllib.request
 from datetime import date, datetime, timedelta
 
 sys.path.insert(0, "scripts")
@@ -28,6 +28,35 @@ def norm(t):
     t = unicodedata.normalize("NFKD", t or "").encode("ascii", "ignore").decode().lower()
     t = t.replace("&", " e ")
     return re.sub(r"[^a-z0-9]+", " ", t).strip()
+
+
+BUSCA = """query($q:String!){popularTitles(country:BR,first:10,filter:{searchQuery:$q,objectTypes:[MOVIE]}){
+ edges{node{objectId content(country:BR,language:"pt"){title originalTitle originalReleaseYear externalIds{imdbId}}
+  en:content(country:US,language:"en"){title}}}}}"""
+
+
+def buscar_jw(titulo):
+    """Busca do JustWatch BR: [(jw_id, imdb_id, ano)] na ordem de relevância."""
+    corpo = json.dumps({"query": BUSCA, "variables": {"q": titulo}}).encode()
+    req = urllib.request.Request("https://apis.justwatch.com/graphql", corpo,
+                                 {"content-type": "application/json", "user-agent": "Mozilla/5.0"})
+    time.sleep(0.5)
+    nos = json.load(urllib.request.urlopen(req, timeout=60))["data"]["popularTitles"]["edges"]
+    return [(str(n["objectId"]), (n["content"]["externalIds"] or {}).get("imdbId") or "",
+             n["content"]["originalReleaseYear"],
+             {n["content"]["title"], n["content"]["originalTitle"], (n.get("en") or {}).get("title")})
+            for n in (e["node"] for e in nos)]
+
+
+def parecido(a, b):
+    """Um título contém o outro, ou metade das palavras em comum."""
+    a, b = norm(a), norm(b)
+    if not a or not b:
+        return False
+    if a in b or b in a:
+        return True
+    pa, pb = set(a.split()), set(b.split())
+    return len(pa & pb) / len(pa | pb) >= 0.5
 
 
 def brt(iso):
@@ -71,6 +100,21 @@ def main(jw_json, mubi_gz, listas):
             cands = [f for f in cat if serv in f["servicos"].split("|")
                      and alvo in (norm(f["titulo_pt"]), norm(f["titulo_original"]))
                      and (not it.get("ano") or not f["ano"] or abs(int(f["ano"]) - it["ano"]) <= 1)]
+            if len(cands) != 1:
+                # nomes diferem entre a lista e o JustWatch: usa a busca do JustWatch.
+                # Vale se o filme está no catálogo com esse serviço e (título parecido
+                # em pt/original/inglês com ano ±1, ou 1º resultado com o mesmo ano)
+                cands = []
+                for i, (jw_id, imdb, ano, titulos) in enumerate(buscar_jw(it["titulo"])):
+                    f = por_jw.get(jw_id) or por_imdb.get(imdb)
+                    if not (f and serv in f["servicos"].split("|") and ano):
+                        continue
+                    sem_ano = not it.get("ano")
+                    perto = sem_ano or abs(ano - it["ano"]) <= 1
+                    if (perto and any(parecido(it["titulo"], t) for t in titulos)) or \
+                            (i == 0 and (sem_ano or ano == it["ano"])):
+                        cands = [f]
+                        break
             if len(cands) == 1:
                 anotar(cands[0], serv, it["fonte"], it["data"])
             else:
