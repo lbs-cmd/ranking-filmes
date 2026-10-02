@@ -1,26 +1,4 @@
 imdb_id,titulo_original,ano,servico,ultimo_dia,fonte,continua_em
-tt7464188,In Fabric,2018,HBO Max,2026-10-01,JustWatch,
-tt32221196,One of Them Days,2025,HBO Max,2026-10-01,JustWatch,
-tt0811080,Speed Racer,2008,HBO Max,2026-10-01,JustWatch,Netflix
-tt11261296,Blutsauger,2022,MUBI,2026-10-01,MUBI dataset (kubi2021),
-tt10329614,Censor,2021,MUBI,2026-10-01,MUBI dataset (kubi2021),Prime Video
-tt1872818,Liberal Arts,2012,MUBI,2026-10-01,MUBI dataset (kubi2021),Prime Video
-tt0100157,Misery,1990,MUBI,2026-10-01,MUBI dataset (kubi2021),
-tt0114436,Showgirls,1995,MUBI,2026-10-01,MUBI dataset (kubi2021),
-tt1045658,Silver Linings Playbook,2012,MUBI,2026-10-01,MUBI dataset (kubi2021),Prime Video
-tt2321549,The Babadook,2014,MUBI,2026-10-01,MUBI dataset (kubi2021),
-tt0068833,The Last House on the Left,1972,MUBI,2026-10-01,MUBI dataset (kubi2021),Prime Video
-tt0072271,The Texas Chain Saw Massacre,1974,MUBI,2026-10-01,MUBI dataset (kubi2021),
-tt13560574,X,2022,MUBI,2026-10-01,MUBI dataset (kubi2021),
-tt0389557,Zwartboek,2006,MUBI,2026-10-01,MUBI dataset (kubi2021),Prime Video
-tt28490044,悪は存在しない,2023,MUBI,2026-10-01,MUBI dataset (kubi2021),
-tt4126340,Joe Dirt 2: Beautiful Loser,2015,Netflix,2026-10-01,RendaGeek,
-tt7605074,流浪地球,2019,Netflix,2026-10-01,RendaGeek,
-tt5040012,Nosferatu,2024,Prime Video,2026-10-01,JustWatch,
-tt28259207,Kill,2024,Telecine,2026-10-01,JustWatch,
-tt20205236,خرس نیست,2022,Telecine,2026-10-01,JustWatch,
-tt2331143,そして父になる,2013,Telecine,2026-10-01,JustWatch,
-tt15534640,The Most Magical Story on Earth: 50 Years of Walt Disney World,2021,Disney+,2026-10-02,JustWatch,
 tt2823574,Extraction,2013,Netflix,2026-10-02,RendaGeek,
 tt0117381,Primal Fear,1996,Netflix,2026-10-02,RendaGeek,
 tt1488555,The Change-Up,2011,Netflix,2026-10-02,RendaGeek,Prime Video|Telecine
@@ -38,7 +16,7 @@ tt3580748,Tyson's Run,2022,Netflix,2026-10-03,RendaGeek,
 tt2402751,¿Qué le dijiste a Dios?,2014,Netflix,2026-10-03,RendaGeek,
 tt1334026,O Menino da Porteira,2009,Prime Video,2026-10-03,JustWatch,
 tt15268100,Luccas Neto em: O Mapa do Tesouro,2020,Netflix,2026-10-04,RendaGeek,
-tt0108238,Striking Distance,1993,Netflix,2026-10-04,RendaGeek,HBO Max
+tt0108238,Striking Distance,1993,Netflix,2026-10-04,RendaGeek,
 tt15131266,As Good as Dead,2022,Telecine,2026-10-04,JustWatch,
 tt0457400,Land of the Lost,2009,Netflix,2026-10-05,RendaGeek,
 tt0408196,Sniper 3,2004,Netflix,2026-10-05,RendaGeek,
@@ -57,8 +35,8 @@ tt6535880,Haunt,2019,HBO Max,2026-10-08,JustWatch,
 tt0112697,Clueless,1995,Netflix,2026-10-08,RendaGeek,Paramount+
 tt1403981,Remember Me,2010,Netflix,2026-10-08,RendaGeek,
 tt1659337,The Perks of Being a Wallflower,2012,Netflix,2026-10-08,RendaGeek,
-tt0800320,Clash of the Titans,2010,Netflix,2026-10-09,RendaGeek,Prime Video
-tt1205489,Gran Torino,2008,Netflix,2026-10-09,RendaGeek,Prime Video
+tt0800320,Clash of the Titans,2010,Netflix,2026-10-09,RendaGeek,
+tt1205489,Gran Torino,2008,Netflix,2026-10-09,RendaGeek,
 tt0120696,Hard Rain,1998,Netflix,2026-10-09,RendaGeek,
 tt23026954,Monster High 2,2023,Netflix,2026-10-09,RendaGeek,Prime Video|Paramount+
 tt0363282,New York Minute,2004,Netflix,2026-10-09,RendaGeek,
@@ -173,7 +151,7 @@ tt4216984,Wolf Man,2025,Prime Video,2026-10-15,JustWatch,
 tt6513656,Escape Plan 2: Hades,2018,Netflix,2026-10-16,RendaGeek,
 tt3554046,Space Jam: A New Legacy,2021,Netflix,2026-10-16,RendaGeek,HBO Max
 tt0244244,Swordfish,2001,Netflix,2026-10-16,RendaGeek,
-tt0421715,The Curious Case of Benjamin Button,2008,Netflix,2026-10-16,RendaGeek,HBO Max
+tt0421715,The Curious Case of Benjamin Button,2008,Netflix,2026-10-16,RendaGeek,Prime Video
 tt0356680,The Family Stone,2005,Netflix,2026-10-16,RendaGeek,Disney+
 tt0110366,The Little Rascals,1994,Netflix,2026-10-16,RendaGeek,Telecine
 tt0119978,The Rainmaker,1997,Netflix,2026-10-16,RendaGeek,
@@ -192,7 +170,7 @@ tt31727191,Preparation for the Next Life,2025,Prime Video,2026-10-18,JustWatch,
 tt0315850,El bonaerense,2002,Netflix,2026-10-19,RendaGeek,
 tt0359254,Familia rodante,2004,Netflix,2026-10-19,RendaGeek,
 tt6791096,I Feel Pretty,2018,Netflix,2026-10-19,RendaGeek,
-tt0892318,Letters to Juliet,2010,Netflix,2026-10-19,RendaGeek,Telecine
+tt0892318,Letters to Juliet,2010,Netflix,2026-10-19,RendaGeek,Telecine|Universal+
 tt0468816,Nacido y criado,2006,Netflix,2026-10-19,RendaGeek,
 tt0431308,P.S. I Love You,2007,Netflix,2026-10-19,RendaGeek,Telecine|Universal+
 tt0462590,Step Up,2006,Netflix,2026-10-19,RendaGeek,Telecine
@@ -282,7 +260,7 @@ tt11737772,Chal Mera Putt,2019,Prime Video,2026-10-31,JustWatch,
 tt0085346,Class,1983,Prime Video,2026-10-31,JustWatch,
 tt0077360,Comes a Horseman,1978,Prime Video,2026-10-31,JustWatch,
 tt0099817,Dark Angel,1990,Prime Video,2026-10-31,JustWatch,
-tt1137450,Death Wish,2018,Prime Video,2026-10-31,JustWatch,Universal+
+tt1137450,Death Wish,2018,Prime Video,2026-10-31,JustWatch,
 tt0089003,Death Wish 3,1985,Prime Video,2026-10-31,JustWatch,
 tt0092857,Death Wish 4: The Crackdown,1987,Prime Video,2026-10-31,JustWatch,
 tt0082250,Death Wish II,1982,Prime Video,2026-10-31,JustWatch,
@@ -306,7 +284,7 @@ tt0089604,Missing in Action 2: The Beginning,1985,Prime Video,2026-10-31,JustWat
 tt0093693,Overboard,1987,Prime Video,2026-10-31,JustWatch,
 tt1563742,Overboard,2018,Prime Video,2026-10-31,JustWatch,Universal+
 tt4468740,Paddington 2,2017,Prime Video,2026-10-31,JustWatch,Universal+
-tt1029360,Poltergeist,2015,Prime Video,2026-10-31,JustWatch,Universal+
+tt1029360,Poltergeist,2015,Prime Video,2026-10-31,JustWatch,
 tt0091778,Poltergeist II: The Other Side,1986,Prime Video,2026-10-31,JustWatch,
 tt0095889,Poltergeist III,1988,Prime Video,2026-10-31,JustWatch,
 tt0081398,Raging Bull,1980,Prime Video,2026-10-31,JustWatch,MUBI
@@ -322,7 +300,7 @@ tt0053580,The Alamo,1960,Prime Video,2026-10-31,JustWatch,
 tt0057115,The Great Escape,1963,Prime Video,2026-10-31,JustWatch,
 tt0059245,The Greatest Story Ever Told,1965,Prime Video,2026-10-31,JustWatch,
 tt0052902,The Horse Soldiers,1959,Prime Video,2026-10-31,JustWatch,
-tt0102926,The Silence of the Lambs,1991,Prime Video,2026-10-31,JustWatch,
+tt0102926,The Silence of the Lambs,1991,Prime Video,2026-10-31,JustWatch,Universal+
 tt6423362,The Sun Is Also a Star,2019,Prime Video,2026-10-31,JustWatch,
 tt0054428,The Unforgiven,1960,Prime Video,2026-10-31,JustWatch,
 tt0066518,The Vampire Lovers,1970,Prime Video,2026-10-31,JustWatch,
@@ -343,34 +321,34 @@ tt0066921,A Clockwork Orange,1971,Telecine,2026-10-31,JustWatch,HBO Max
 tt29252358,Armor,2024,Telecine,2026-10-31,JustWatch,
 tt7890550,Astronaut,2019,Telecine,2026-10-31,JustWatch,
 tt0101635,Curly Sue,1991,Telecine,2026-10-31,JustWatch,
-tt1502404,Drive Angry,2011,Telecine,2026-10-31,JustWatch,HBO Max
+tt1502404,Drive Angry,2011,Telecine,2026-10-31,JustWatch,
 tt0425061,Get Smart,2008,Telecine,2026-10-31,JustWatch,Netflix
 tt29258548,Gracie and Pedro: Pets to the Rescue,2024,Telecine,2026-10-31,JustWatch,
-tt1375666,Inception,2010,Telecine,2026-10-31,JustWatch,Prime Video|HBO Max|Universal+
+tt1375666,Inception,2010,Telecine,2026-10-31,JustWatch,HBO Max
 tt3731562,Kong: Skull Island,2017,Telecine,2026-10-31,JustWatch,HBO Max
 tt0199725,Love & Basketball,2000,Telecine,2026-10-31,JustWatch,
 tt0405159,Million Dollar Baby,2004,Telecine,2026-10-31,JustWatch,Prime Video
 tt0271383,O Auto da Compadecida,2000,Telecine,2026-10-31,JustWatch,
 tt9463434,O Silêncio da Chuva,2020,Telecine,2026-10-31,JustWatch,
 tt5164214,Ocean's Eight,2018,Telecine,2026-10-31,JustWatch,HBO Max
-tt0496806,Ocean's Thirteen,2007,Telecine,2026-10-31,JustWatch,Prime Video|HBO Max
-tt0349903,Ocean's Twelve,2004,Telecine,2026-10-31,JustWatch,HBO Max
-tt1663662,Pacific Rim,2013,Telecine,2026-10-31,JustWatch,HBO Max
+tt0496806,Ocean's Thirteen,2007,Telecine,2026-10-31,JustWatch,HBO Max
+tt0349903,Ocean's Twelve,2004,Telecine,2026-10-31,JustWatch,Prime Video|HBO Max
+tt1663662,Pacific Rim,2013,Telecine,2026-10-31,JustWatch,Prime Video|HBO Max
 tt0087928,Police Academy,1984,Telecine,2026-10-31,JustWatch,
 tt1633356,Shark Night 3D,2011,Telecine,2026-10-31,JustWatch,Prime Video
 tt0045152,Singin' in the Rain,1952,Telecine,2026-10-31,JustWatch,HBO Max
-tt4624424,Storks,2016,Telecine,2026-10-31,JustWatch,HBO Max
+tt4624424,Storks,2016,Telecine,2026-10-31,JustWatch,HBO Max|Universal+
 tt0230838,Sweet November,2001,Telecine,2026-10-31,JustWatch,
-tt0407887,The Departed,2006,Telecine,2026-10-31,JustWatch,Netflix
-tt1343092,The Great Gatsby,2013,Telecine,2026-10-31,JustWatch,Prime Video
-tt0410297,The Lake House,2006,Telecine,2026-10-31,JustWatch,HBO Max
-tt0918940,The Legend of Tarzan,2016,Telecine,2026-10-31,JustWatch,Prime Video
-tt1490017,The Lego Movie,2014,Telecine,2026-10-31,JustWatch,Prime Video|HBO Max
+tt0407887,The Departed,2006,Telecine,2026-10-31,JustWatch,Netflix|Prime Video
+tt1343092,The Great Gatsby,2013,Telecine,2026-10-31,JustWatch,
+tt0410297,The Lake House,2006,Telecine,2026-10-31,JustWatch,HBO Max|Universal+
+tt0918940,The Legend of Tarzan,2016,Telecine,2026-10-31,JustWatch,
+tt1490017,The Lego Movie,2014,Telecine,2026-10-31,JustWatch,HBO Max
 tt3513498,The Lego Movie 2: The Second Part,2019,Telecine,2026-10-31,JustWatch,HBO Max|Universal+
-tt0133093,The Matrix,1999,Telecine,2026-10-31,JustWatch,HBO Max
+tt0133093,The Matrix,1999,Telecine,2026-10-31,JustWatch,
 tt0242653,The Matrix Revolutions,2003,Telecine,2026-10-31,JustWatch,HBO Max
 tt0088323,The NeverEnding Story,1984,Telecine,2026-10-31,JustWatch,
-tt0332280,The Notebook,2004,Telecine,2026-10-31,JustWatch,HBO Max
+tt0332280,The Notebook,2004,Telecine,2026-10-31,JustWatch,Prime Video|HBO Max
 tt0081505,The Shining,1980,Telecine,2026-10-31,JustWatch,HBO Max|Universal+
 tt0032138,The Wizard of Oz,1939,Telecine,2026-10-31,JustWatch,HBO Max
 tt28662887,Wake Up,2024,Telecine,2026-10-31,JustWatch,
@@ -379,9 +357,9 @@ tt0124298,Blast from the Past,1999,Universal+,2026-10-31,JustWatch,
 tt1528854,Daddy's Home,2015,Universal+,2026-10-31,JustWatch,
 tt1231587,Hot Tub Time Machine,2010,Universal+,2026-10-31,JustWatch,
 tt0110413,Léon,1994,Universal+,2026-10-31,JustWatch,HBO Max
-tt1229238,Mission: Impossible - Ghost Protocol,2011,Universal+,2026-10-31,JustWatch,Netflix|Paramount+
-tt0120755,Mission: Impossible II,2000,Universal+,2026-10-31,JustWatch,Netflix|Paramount+
-tt2381249,Mission: Impossible – Rogue Nation,2015,Universal+,2026-10-31,JustWatch,Paramount+
+tt1229238,Mission: Impossible - Ghost Protocol,2011,Universal+,2026-10-31,JustWatch,Netflix|Disney+|Paramount+
+tt0120755,Mission: Impossible II,2000,Universal+,2026-10-31,JustWatch,Netflix|Disney+|Paramount+
+tt2381249,Mission: Impossible – Rogue Nation,2015,Universal+,2026-10-31,JustWatch,Disney+|Paramount+
 tt2024469,Non-Stop,2014,Universal+,2026-10-31,JustWatch,
 tt4428398,Paws of Fury: The Legend of Hank,2022,Universal+,2026-10-31,JustWatch,Paramount+
 tt3794354,Sonic the Hedgehog,2020,Universal+,2026-10-31,JustWatch,Paramount+
@@ -389,14 +367,14 @@ tt12412888,Sonic the Hedgehog 2,2022,Universal+,2026-10-31,JustWatch,Paramount+
 tt11858890,The Creator,2023,Universal+,2026-10-31,JustWatch,Netflix|Telecine
 tt4504044,The Prodigy,2019,Universal+,2026-10-31,JustWatch,
 tt1745960,Top Gun: Maverick,2022,Universal+,2026-10-31,JustWatch,Paramount+
-tt2109248,Transformers: Age of Extinction,2014,Universal+,2026-10-31,JustWatch,Paramount+
-tt3371366,Transformers: The Last Knight,2017,Universal+,2026-10-31,JustWatch,Paramount+
+tt2109248,Transformers: Age of Extinction,2014,Universal+,2026-10-31,JustWatch,Disney+|Paramount+
+tt3371366,Transformers: The Last Knight,2017,Universal+,2026-10-31,JustWatch,Disney+|Paramount+
 tt0816711,World War Z,2013,Universal+,2026-10-31,JustWatch,Netflix|Paramount+
 tt6467274,Atlantis Rising,2017,Disney+,2026-11-01,JustWatch,
 tt5929776,Before the Flood,2016,Disney+,2026-11-01,JustWatch,
 tt0112642,Casper,1995,Disney+,2026-11-01,JustWatch,Telecine
 tt5052448,Get Out,2017,Disney+,2026-11-01,JustWatch,Prime Video|Telecine
-tt1490017,The Lego Movie,2014,Disney+,2026-11-01,JustWatch,Prime Video|HBO Max
+tt1490017,The Lego Movie,2014,Disney+,2026-11-01,JustWatch,HBO Max
 tt3513498,The Lego Movie 2: The Second Part,2019,Disney+,2026-11-01,JustWatch,HBO Max|Universal+
 tt3014284,The Lego Ninjago Movie,2017,Disney+,2026-11-01,JustWatch,HBO Max
 tt0120737,The Lord of the Rings: The Fellowship of the Ring,2001,Disney+,2026-11-01,JustWatch,Netflix|HBO Max
@@ -420,7 +398,7 @@ tt0421729,Big Momma's House 2,2006,Universal+,2026-11-07,JustWatch,Telecine
 tt1464174,"Big Mommas: Like Father, Like Son",2011,Universal+,2026-11-07,JustWatch,Telecine
 tt0901476,Bride Wars,2009,Universal+,2026-11-07,JustWatch,Paramount+|Telecine
 tt0822832,Marley & Me,2008,Universal+,2026-11-07,JustWatch,Paramount+|Telecine
-tt2935510,Ad Astra,2019,Universal+,2026-11-08,JustWatch,Prime Video|Paramount+
+tt2935510,Ad Astra,2019,Universal+,2026-11-08,JustWatch,Paramount+
 tt9125246,Meu Sangue Ferve por Você,2024,Telecine,2026-11-09,JustWatch,
 tt10223460,Marry Me,2022,Universal+,2026-11-09,JustWatch,Telecine
 tt14028680,Detetive Madeinusa,2021,Prime Video,2026-11-11,JustWatch,
@@ -499,12 +477,12 @@ tt1981128,Geostorm,2017,HBO Max,2026-11-30,JustWatch,
 tt1051904,Goosebumps,2015,HBO Max,2026-11-30,JustWatch,Netflix|Prime Video
 tt0348836,Gothika,2003,HBO Max,2026-11-30,JustWatch,Netflix
 tt3062096,Inferno,2016,HBO Max,2026-11-30,JustWatch,
-tt1617661,Jupiter Ascending,2015,HBO Max,2026-11-30,JustWatch,Netflix|Prime Video
+tt1617661,Jupiter Ascending,2015,HBO Max,2026-11-30,JustWatch,Netflix
 tt0107362,Last Action Hero,1993,HBO Max,2026-11-30,JustWatch,
 tt1219342,Legend of the Guardians: The Owls of Ga'Hoole,2010,HBO Max,2026-11-30,JustWatch,
 tt0385307,Miss Congeniality 2: Armed and Fabulous,2005,HBO Max,2026-11-30,JustWatch,
 tt0045070,Rancho Notorious,1952,HBO Max,2026-11-30,JustWatch,
-tt0048545,Rebel Without a Cause,1955,HBO Max,2026-11-30,JustWatch,Telecine
+tt0048545,Rebel Without a Cause,1955,HBO Max,2026-11-30,JustWatch,
 tt2592614,Resident Evil: The Final Chapter,2016,HBO Max,2026-11-30,JustWatch,
 tt0449089,RV,2006,HBO Max,2026-11-30,JustWatch,
 tt1700841,Sausage Party,2016,HBO Max,2026-11-30,JustWatch,
@@ -519,14 +497,70 @@ tt6469892,Troll: The Tale of a Tail,2018,HBO Max,2026-11-30,JustWatch,
 tt2334879,White House Down,2013,HBO Max,2026-11-30,JustWatch,
 tt31624258,하이재킹,2024,HBO Max,2026-11-30,JustWatch,
 tt0137363,Arlington Road,1999,Prime Video,2026-11-30,JustWatch,
+tt0064072,Battle of Britain,1969,Prime Video,2026-11-30,JustWatch,
+tt0061452,Casino Royale,1967,Prime Video,2026-11-30,JustWatch,
+tt0381061,Casino Royale,2006,Prime Video,2026-11-30,JustWatch,Universal+
+tt0094862,Child's Play,1988,Prime Video,2026-11-30,JustWatch,Universal+
+tt0062803,Chitty Chitty Bang Bang,1968,Prime Video,2026-11-30,JustWatch,
 tt0088936,Code of Silence,1985,Prime Video,2026-11-30,JustWatch,
+tt5073642,Color Out of Space,2020,Prime Video,2026-11-30,JustWatch,
+tt9204328,Dark Harvest,2023,Prime Video,2026-11-30,JustWatch,
+tt0066995,Diamonds Are Forever,1971,Prime Video,2026-11-30,JustWatch,
+tt0246460,Die Another Day,2002,Prime Video,2026-11-30,JustWatch,
+tt0055928,Dr. No,1962,Prime Video,2026-11-30,JustWatch,
+tt0060355,Duel at Diablo,1966,Prime Video,2026-11-30,JustWatch,
+tt0082398,For Your Eyes Only,1981,Prime Video,2026-11-30,JustWatch,
+tt0057076,From Russia with Love,1963,Prime Video,2026-11-30,JustWatch,
+tt0113189,GoldenEye,1995,Prime Video,2026-11-30,JustWatch,
+tt0058150,Goldfinger,1964,Prime Video,2026-11-30,JustWatch,
 tt0386588,Hitch,2005,Prime Video,2026-11-30,JustWatch,
+tt2967224,Hot Pursuit,2015,Prime Video,2026-11-30,JustWatch,Universal+
+tt11214590,House of Gucci,2021,Prime Video,2026-11-30,JustWatch,Universal+
+tt1292566,How to Be Single,2016,Prime Video,2026-11-30,JustWatch,
+tt0057193,"It's a Mad, Mad, Mad, Mad World",1963,Prime Video,2026-11-30,JustWatch,
+tt0095444,Killer Klowns from Outer Space,1988,Prime Video,2026-11-30,JustWatch,
+tt0067333,Lawman,1971,Prime Video,2026-11-30,JustWatch,
+tt0097742,Licence to Kill,1989,Prime Video,2026-11-30,JustWatch,
+tt0089489,Lifeforce,1985,Prime Video,2026-11-30,JustWatch,
+tt0070328,Live and Let Die,1973,Prime Video,2026-11-30,JustWatch,
+tt0085862,Lone Wolf McQuade,1983,Prime Video,2026-11-30,JustWatch,
 tt4669296,Lords of Chaos,2018,Prime Video,2026-11-30,JustWatch,
 tt6475714,Monster Hunter,2020,Prime Video,2026-11-30,JustWatch,Universal+
+tt0079574,Moonraker,1979,Prime Video,2026-11-30,JustWatch,
+tt0085970,Mr. Mom,1983,Prime Video,2026-11-30,JustWatch,
+tt0086006,Never Say Never Again,1983,Prime Video,2026-11-30,JustWatch,
+tt2382320,No Time to Die,2021,Prime Video,2026-11-30,JustWatch,Universal+
 tt4012424,O Filme da Minha Vida,2017,Prime Video,2026-11-30,JustWatch,
+tt0086034,Octopussy,1983,Prime Video,2026-11-30,JustWatch,
+tt0064757,On Her Majesty's Secret Service,1969,Prime Video,2026-11-30,JustWatch,
+tt0093692,Over the Top,1987,Prime Video,2026-11-30,JustWatch,
+tt0830515,Quantum of Solace,2008,Prime Video,2026-11-30,JustWatch,Universal+
+tt0490215,Silence,2017,Prime Video,2026-11-30,JustWatch,
+tt1074638,Skyfall,2012,Prime Video,2026-11-30,JustWatch,Universal+
+tt0094012,Spaceballs,1987,Prime Video,2026-11-30,JustWatch,
+tt2379713,Spectre,2015,Prime Video,2026-11-30,JustWatch,Universal+
+tt0078767,The Amityville Horror,1979,Prime Video,2026-11-30,JustWatch,
 tt22866358,The Book of Clarence,2024,Prime Video,2026-11-30,JustWatch,
+tt0093428,The Living Daylights,1987,Prime Video,2026-11-30,JustWatch,
+tt0081071,The Long Riders,1980,Prime Video,2026-11-30,JustWatch,
+tt0071807,The Man with the Golden Gun,1974,Prime Video,2026-11-30,JustWatch,
+tt1010271,The Poughkeepsie Tapes,2007,Prime Video,2026-11-30,JustWatch,
+tt4504044,The Prodigy,2019,Prime Video,2026-11-30,JustWatch,
+tt0076752,The Spy Who Loved Me,1977,Prime Video,2026-11-30,JustWatch,
+tt0088247,The Terminator,1984,Prime Video,2026-11-30,JustWatch,
+tt0143145,The World Is Not Enough,1999,Prime Video,2026-11-30,JustWatch,
+tt0103074,Thelma & Louise,1991,Prime Video,2026-11-30,JustWatch,
+tt0083190,Thief,1981,Prime Video,2026-11-30,JustWatch,
+tt0059800,Thunderball,1965,Prime Video,2026-11-30,JustWatch,
+tt1365519,Tomb Raider,2018,Prime Video,2026-11-30,JustWatch,Paramount+|Universal+
+tt0120347,Tomorrow Never Dies,1997,Prime Video,2026-11-30,JustWatch,
 tt0103112,Toy Soldiers,1991,Prime Video,2026-11-30,JustWatch,
+tt0096324,Two Moon Junction,1988,Prime Video,2026-11-30,JustWatch,
+tt0351977,Walking Tall,2004,Prime Video,2026-11-30,JustWatch,
+tt0804550,Walking Tall: The Payback,2007,Prime Video,2026-11-30,JustWatch,
+tt0098635,When Harry Met Sally...,1989,Prime Video,2026-11-30,JustWatch,
 tt0324554,Wicker Park,2004,Prime Video,2026-11-30,JustWatch,
+tt0062512,You Only Live Twice,1967,Prime Video,2026-11-30,JustWatch,
 tt1222817,Zookeeper,2011,Prime Video,2026-11-30,JustWatch,
 tt7972178,70 Binladens,2019,Telecine,2026-11-30,JustWatch,
 tt0365907,A Walk Among the Tombstones,2014,Telecine,2026-11-30,JustWatch,Prime Video
@@ -536,11 +570,11 @@ tt9204164,Bigfoot Family,2020,Telecine,2026-11-30,JustWatch,Universal+
 tt0083658,Blade Runner,1982,Telecine,2026-11-30,JustWatch,Prime Video|HBO Max
 tt0034583,Casablanca,1943,Telecine,2026-11-30,JustWatch,HBO Max
 tt0120632,City of Angels,1998,Telecine,2026-11-30,JustWatch,
-tt0800320,Clash of the Titans,2010,Telecine,2026-11-30,JustWatch,Prime Video
+tt0800320,Clash of the Titans,2010,Telecine,2026-11-30,JustWatch,
 tt0090859,Cobra,1986,Telecine,2026-11-30,JustWatch,HBO Max
 tt0233469,Collateral Damage,2002,Telecine,2026-11-30,JustWatch,Netflix|HBO Max
 tt5714470,Come Away,2020,Telecine,2026-11-30,JustWatch,
-tt3104988,Crazy Rich Asians,2018,Telecine,2026-11-30,JustWatch,Prime Video
+tt3104988,Crazy Rich Asians,2018,Telecine,2026-11-30,JustWatch,
 tt0106697,Demolition Man,1993,Telecine,2026-11-30,JustWatch,HBO Max
 tt0106701,Dennis the Menace,1993,Telecine,2026-11-30,JustWatch,
 tt0066999,Dirty Harry,1971,Telecine,2026-11-30,JustWatch,HBO Max
@@ -550,36 +584,36 @@ tt0112883,Don Juan DeMarco,1994,Telecine,2026-11-30,JustWatch,
 tt9855978,Drømmebyggerne,2020,Telecine,2026-11-30,JustWatch,Universal+
 tt0116213,Eraser,1996,Telecine,2026-11-30,JustWatch,HBO Max
 tt6772804,Escape Plan: The Extractors,2019,Telecine,2026-11-30,JustWatch,Netflix|Prime Video|HBO Max
-tt0083944,First Blood,1982,Telecine,2026-11-30,JustWatch,
+tt0083944,First Blood,1982,Telecine,2026-11-30,JustWatch,Universal+
 tt0031381,Gone with the Wind,1939,Telecine,2026-11-30,JustWatch,HBO Max
 tt1028532,Hachi: A Dog's Tale,2009,Telecine,2026-11-30,JustWatch,Netflix|Prime Video|Paramount+
-tt0480249,I Am Legend,2007,Telecine,2026-11-30,JustWatch,Netflix|HBO Max
+tt0480249,I Am Legend,2007,Telecine,2026-11-30,JustWatch,Netflix|Prime Video|HBO Max
 tt1397514,Journey 2: The Mysterious Island,2012,Telecine,2026-11-30,JustWatch,HBO Max
-tt0373051,Journey to the Center of the Earth,2008,Telecine,2026-11-30,JustWatch,HBO Max
+tt0373051,Journey to the Center of the Earth,2008,Telecine,2026-11-30,JustWatch,HBO Max|Universal+
 tt1448755,Killer Elite,2011,Telecine,2026-11-30,JustWatch,Netflix|Prime Video|HBO Max
 tt6314690,Les As de la Jungle,2017,Telecine,2026-11-30,JustWatch,Prime Video
-tt0093409,Lethal Weapon,1987,Telecine,2026-11-30,JustWatch,HBO Max
+tt0093409,Lethal Weapon,1987,Telecine,2026-11-30,JustWatch,Prime Video|HBO Max
 tt0762125,Planet 51,2009,Telecine,2026-11-30,JustWatch,Prime Video
 tt7394816,Primal,2019,Telecine,2026-11-30,JustWatch,Prime Video|HBO Max
-tt0095956,Rambo III,1988,Telecine,2026-11-30,JustWatch,
-tt0089880,Rambo: First Blood Part II,1985,Telecine,2026-11-30,JustWatch,
-tt1677720,Ready Player One,2018,Telecine,2026-11-30,JustWatch,HBO Max
+tt0095956,Rambo III,1988,Telecine,2026-11-30,JustWatch,Universal+
+tt0089880,Rambo: First Blood Part II,1985,Telecine,2026-11-30,JustWatch,Universal+
+tt1677720,Ready Player One,2018,Telecine,2026-11-30,JustWatch,Prime Video|HBO Max
 tt6547170,Reprisal,2018,Telecine,2026-11-30,JustWatch,Prime Video
 tt0110989,Ri¢hie Ri¢h,1994,Telecine,2026-11-30,JustWatch,HBO Max
 tt4532826,Robin Hood,2018,Telecine,2026-11-30,JustWatch,
 tt13067292,Rogue Hostage,2021,Telecine,2026-11-30,JustWatch,Prime Video
 tt0479997,Season of the Witch,2011,Telecine,2026-11-30,JustWatch,Prime Video|Universal+
 tt17422332,Sem Fôlego,2022,Telecine,2026-11-30,JustWatch,
-tt0117705,Space Jam,1996,Telecine,2026-11-30,JustWatch,Prime Video|HBO Max
-tt0878804,The Blind Side,2009,Telecine,2026-11-30,JustWatch,Netflix|Prime Video|HBO Max
-tt0103855,The Bodyguard,1992,Telecine,2026-11-30,JustWatch,Prime Video
+tt0117705,Space Jam,1996,Telecine,2026-11-30,JustWatch,HBO Max
+tt0878804,The Blind Side,2009,Telecine,2026-11-30,JustWatch,Netflix|HBO Max
+tt0103855,The Bodyguard,1992,Telecine,2026-11-30,JustWatch,
 tt0289879,The Butterfly Effect,2004,Telecine,2026-11-30,JustWatch,HBO Max
-tt0421715,The Curious Case of Benjamin Button,2008,Telecine,2026-11-30,JustWatch,HBO Max
+tt0421715,The Curious Case of Benjamin Button,2008,Telecine,2026-11-30,JustWatch,Prime Video
 tt0089218,The Goonies,1985,Telecine,2026-11-30,JustWatch,
-tt0325710,The Last Samurai,2003,Telecine,2026-11-30,JustWatch,Netflix|HBO Max
+tt0325710,The Last Samurai,2003,Telecine,2026-11-30,JustWatch,Netflix|Prime Video|HBO Max
 tt1754656,The Little Prince,2015,Telecine,2026-11-30,JustWatch,Netflix|Prime Video
-tt0338348,The Polar Express,2004,Telecine,2026-11-30,JustWatch,
-tt0337697,The Prince & Me,2004,Telecine,2026-11-30,JustWatch,
+tt0338348,The Polar Express,2004,Telecine,2026-11-30,JustWatch,Universal+
+tt0337697,The Prince & Me,2004,Telecine,2026-11-30,JustWatch,Universal+
 tt0049730,The Searchers,1956,Telecine,2026-11-30,JustWatch,
 tt8065768,Vic the Viking: The Magic Sword,2019,Telecine,2026-11-30,JustWatch,Prime Video
 tt0443706,Zodiac,2007,Telecine,2026-11-30,JustWatch,HBO Max
@@ -589,11 +623,15 @@ tt0287978,Daredevil,2003,Universal+,2026-11-30,JustWatch,Netflix|Disney+|Telecin
 tt2377322,Deliver Us from Evil,2014,Universal+,2026-11-30,JustWatch,Netflix|HBO Max
 tt1289401,Ghostbusters,2016,Universal+,2026-11-30,JustWatch,Prime Video
 tt0097428,Ghostbusters II,1989,Universal+,2026-11-30,JustWatch,
-tt2268016,Magic Mike XXL,2015,Universal+,2026-11-30,JustWatch,Prime Video|Telecine
+tt2268016,Magic Mike XXL,2015,Universal+,2026-11-30,JustWatch,
 tt1355644,Passengers,2016,Universal+,2026-11-30,JustWatch,Prime Video
-tt1234721,RoboCop,2014,Universal+,2026-11-30,JustWatch,Prime Video|Paramount+
-tt0093870,RoboCop,1987,Universal+,2026-11-30,JustWatch,Prime Video|MUBI
-tt0100502,RoboCop 2,1990,Universal+,2026-11-30,JustWatch,Prime Video
-tt0107978,RoboCop 3,1993,Universal+,2026-11-30,JustWatch,Prime Video
-tt1490017,The Lego Movie,2014,Universal+,2026-11-30,JustWatch,Prime Video|HBO Max
+tt1234721,RoboCop,2014,Universal+,2026-11-30,JustWatch,Paramount+
+tt0093870,RoboCop,1987,Universal+,2026-11-30,JustWatch,MUBI
+tt0100502,RoboCop 2,1990,Universal+,2026-11-30,JustWatch,
+tt0107978,RoboCop 3,1993,Universal+,2026-11-30,JustWatch,
+tt1490017,The Lego Movie,2014,Universal+,2026-11-30,JustWatch,HBO Max
 tt0120744,The Man in the Iron Mask,1998,Universal+,2026-11-30,JustWatch,
+,Something's Coming: West Side Story,2021,Disney+,2026-12-01,JustWatch,
+tt3704428,Elvis,2022,HBO Max,2026-12-01,JustWatch,Universal+
+tt21379060,Stalker,2023,Prime Video,2026-12-01,JustWatch,
+tt6566846,Piedade,2019,Telecine,2026-12-01,JustWatch,

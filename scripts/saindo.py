@@ -22,6 +22,8 @@ from jw_catalogo import ORDEM
 HOJE = date.today()
 LIMITE = HOJE + timedelta(days=60)
 CATALOGO, SAIDA = "data/catalogo.csv", "data/saindo.csv"
+with open("data/fontes/correcoes_titulos.json", encoding="utf-8") as _fh:
+    CORRECOES = json.load(_fh)
 
 
 def norm(t):
@@ -96,6 +98,7 @@ def main(jw_json, mubi_gz, listas):
     nao_casados = []
     for caminho in listas:
         for it in json.load(open(caminho, encoding="utf-8")):
+            it["titulo"] = CORRECOES.get(it["titulo"], it["titulo"])
             serv, alvo = it["servico"], norm(it["titulo"])
             cands = [f for f in cat if serv in f["servicos"].split("|")
                      and alvo in (norm(f["titulo_pt"]), norm(f["titulo_original"]))

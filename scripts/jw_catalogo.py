@@ -1,5 +1,5 @@
 """Etapa 1: catálogo de filmes por assinatura (flatrate) no JustWatch BR."""
-import csv, json, time, urllib.request
+import csv, json, os, re, sys, time, urllib.request
 from datetime import datetime, timedelta
 from collections import Counter
 
@@ -20,6 +20,8 @@ SERVICOS = {
 CONSULTAR = ["nfx", "prv", "mxx", "dnp", "pmp", "mbi", "atl", "auc"]
 ORDEM = ["Netflix", "Prime Video", "HBO Max", "Disney+", "Paramount+", "MUBI", "Telecine", "Universal+"]
 DURACAO_MIN = 40
+SAIDAS_JW = "data/fontes/justwatch_saidas.json"
+CATALOGO = "data/catalogo.csv"
 
 Q = """query($after:String,$pkg:[String!],$y0:Int,$y1:Int){
  popularTitles(country:BR,first:100,after:$after,
@@ -28,7 +30,7 @@ Q = """query($after:String,$pkg:[String!],$y0:Int,$y1:Int){
   totalCount pageInfo{hasNextPage endCursor}
   edges{node{objectId
    content(country:BR,language:"pt"){title originalTitle originalReleaseYear runtime
-     externalIds{imdbId} scoring{imdbScore imdbVotes}}
+     externalIds{imdbId tmdbId} scoring{imdbScore imdbVotes}}
    offers(country:BR,platform:WEB){monetizationType availableToTime package{shortName}}}}}}"""
 
 
@@ -87,7 +89,39 @@ def buscar(pkg, y0=None, y1=None):
     return nos
 
 
+def conferir_imdb(filmes, anterior):
+    """O JustWatch às vezes troca o IMDb ID de um título por um errado.
+
+    Quando o ID muda em relação ao catálogo anterior (mesmo jw_id), o Letterboxd
+    decide: a página /tmdb/<id>/ traz o link do IMDb. Sem resposta, fica o anterior.
+    """
+    if not os.path.exists(anterior):
+        return
+    with open(anterior, encoding="utf-8") as fh:
+        antes = {int(f["jw_id"]): f["imdb_id"] for f in csv.DictReader(fh)}
+    mudou = [f for k, f in filmes.items() if antes.get(k) and f["imdb_id"] != antes[k]]
+    print(f"IMDb ID diferente do catálogo anterior: {len(mudou)} títulos (conferindo no Letterboxd)")
+    confirmados = 0
+    for f in mudou:
+        lb = None
+        if f["tmdb_id"]:
+            try:
+                req = urllib.request.Request(f"https://letterboxd.com/tmdb/{f['tmdb_id']}/",
+                                             headers={"User-Agent": "Mozilla/5.0"})
+                pagina = urllib.request.urlopen(req, timeout=60).read().decode("utf-8", "replace")
+                m = re.search(r"imdb\.com/title/(tt\d+)", pagina)
+                lb = m and m.group(1)
+            except Exception:
+                pass
+            time.sleep(1.5)
+        novo = lb or antes[f["jw_id"]]
+        confirmados += novo == f["imdb_id"]
+        f["imdb_id"] = novo
+    print(f"  mantido o ID novo do JustWatch: {confirmados} | corrigido para o anterior/Letterboxd: {len(mudou) - confirmados}")
+
+
 def main():
+    anterior = sys.argv[1] if len(sys.argv) > 1 else CATALOGO
     filmes = {}
     for pkg in CONSULTAR:
         nos = buscar(pkg)
@@ -104,10 +138,17 @@ def main():
                 "imdb_id": (c["externalIds"] or {}).get("imdbId") or "",
                 "imdb_nota": (c["scoring"] or {}).get("imdbScore") or "",
                 "imdb_votos": (c["scoring"] or {}).get("imdbVotes") or "",
+                "tmdb_id": (c["externalIds"] or {}).get("tmdbId") or "",
                 "servicos": set(), "saidas": {}})
             f["servicos"] |= servs
             for serv, data in datas_saida(ofertas).items():
                 f["saidas"][serv] = data
+
+    conferir_imdb(filmes, anterior)
+
+    # datas de saída do JustWatch por título, lidas depois pelo saindo.py
+    with open(SAIDAS_JW, "w", encoding="utf-8") as fh:
+        json.dump({str(k): {"imdb_id": f["imdb_id"], "saidas": f["saidas"]} for k, f in filmes.items()}, fh)
 
     # junta duplicatas com o mesmo IMDb ID (títulos distintos no JustWatch)
     por_imdb = {}
@@ -128,7 +169,7 @@ def main():
     ordem = ORDEM
     campos = ["jw_id", "titulo_pt", "titulo_original", "ano", "duracao_min",
               "imdb_id", "imdb_nota", "imdb_votos", "servicos", "sai_em"]
-    with open("data/catalogo.csv", "w", newline="", encoding="utf-8") as fh:
+    with open(CATALOGO, "w", newline="", encoding="utf-8") as fh:
         w = csv.DictWriter(fh, campos, extrasaction="ignore")
         w.writeheader()
         for f in sorted(filmes.values(), key=lambda f: (str(f["titulo_original"]).lower())):
