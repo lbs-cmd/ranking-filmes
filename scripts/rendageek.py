@@ -1,7 +1,8 @@
 """Lê uma lista mensal de saídas do RendaGeek e grava os itens em JSON.
 
 Uso: python3 scripts/rendageek.py <url> <saida.json> [serviço]
-Formato esperado das linhas: "Título (ano) — D de mês" (o ano pode faltar).
+Formatos aceitos: "Título (ano) — D de mês" (o ano pode faltar) e, desde nov/2026,
+"D de mês: Título (ano); Título (ano)."
 A leitura para na seção de destaques ("Quais são os principais..."), que repete itens.
 Sai com código 2 se a página não existir (404).
 """
@@ -12,6 +13,9 @@ MESES = {m: i for i, m in enumerate(
     ["janeiro", "fevereiro", "março", "abril", "maio", "junho", "julho", "agosto",
      "setembro", "outubro", "novembro", "dezembro"], 1)}
 LINHA = re.compile(r"(.+?)\s*(?:\((\d{4})\))?\s*[—–]\s*(\d{1,2})º?\s+de\s+(" + "|".join(MESES) + r")$")
+# formato desde nov/2026: "D de mês: Título (ano); Título (ano)."
+DIA = re.compile(r"(\d{1,2})º?\s+de\s+(" + "|".join(MESES) + r"):\s*(.+)$")
+ITEM = re.compile(r"\s*(.+?)\s*\((\d{4})\)\s*[;.]?")
 
 
 def main(url, saida, servico="Netflix"):
@@ -28,6 +32,13 @@ def main(url, saida, servico="Netflix"):
     texto = html.unescape(re.sub(r"<[^>]+>", "", texto)).split("Quais são os principais")[0]
     itens = []
     for linha in texto.split("\n"):
+        d = DIA.match(linha.strip())
+        if d:
+            for t in ITEM.finditer(d[3]):
+                itens.append({"titulo": t[1].strip(), "ano": int(t[2]),
+                              "data": f"{ano_lista}-{MESES[d[2]]:02d}-{int(d[1]):02d}",
+                              "servico": servico, "fonte": "RendaGeek", "url": url})
+            continue
         m = LINHA.match(linha.strip())
         if m:
             itens.append({"titulo": m[1].strip(), "ano": int(m[2]) if m[2] else None,

@@ -1,5 +1,9 @@
 {
- "_nota": "Títulos de listas que não batem com o JustWatch. Chave: título na lista; valor: título original.",
+ "_nota": "Títulos de listas que não batem com o JustWatch. Chave: título na lista; valor: título original, ou {\"titulo\", \"ano\"} quando o ano também difere.",
  "The Spokeswoman": "La Vocera",
- "Dança Comigo?": "Shall We Dance?"
+ "Dança Comigo?": "Shall We Dance?",
+ "Nora’s Will": {
+  "titulo": "Cinco días sin Nora",
+  "ano": 2008
+ }
 }

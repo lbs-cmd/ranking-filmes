@@ -98,7 +98,11 @@ def main(jw_json, mubi_gz, listas):
     nao_casados = []
     for caminho in listas:
         for it in json.load(open(caminho, encoding="utf-8")):
-            it["titulo"] = CORRECOES.get(it["titulo"], it["titulo"])
+            fix = CORRECOES.get(it["titulo"])
+            if isinstance(fix, dict):  # {"titulo": ..., "ano": ...}
+                it.update(fix)
+            elif fix:
+                it["titulo"] = fix
             serv, alvo = it["servico"], norm(it["titulo"])
             cands = [f for f in cat if serv in f["servicos"].split("|")
                      and alvo in (norm(f["titulo_pt"]), norm(f["titulo_original"]))

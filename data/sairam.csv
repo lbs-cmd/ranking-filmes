@@ -1,248 +1,344 @@
 imdb_id,titulo_original,ano,servico
-tt12648266,Accused,2023,Netflix
-tt15303262,Angeliena,2021,Netflix
-tt10963926,Two Witches,2022,Netflix
-tt15685194,それいけ! アンパンマン いのちの星のドーリィ,2006,Netflix
-tt39334765,100 Things to do Before You Die,2026,Prime Video
-tt1253863,300: Rise of an Empire,2014,Prime Video
-tt2935510,Ad Astra,2019,Prime Video
-tt7711170,Alone,2020,Prime Video
-tt1024648,Argo,2012,Prime Video
-tt0106308,Army of Darkness,1992,Prime Video
-tt2094766,Assassin's Creed,2016,Prime Video
-tt0295178,Austin Powers in Goldmember,2002,Prime Video
-tt0145660,Austin Powers: The Spy Who Shagged Me,1999,Prime Video
-tt0092605,Baby Boom,1987,Prime Video
-tt0090685,Back to School,1986,Prime Video
-tt0219965,Bandits,2001,Prime Video
-tt0303714,Barbershop,2002,Prime Video
-tt0337579,Barbershop 2: Back in Business,2004,Prime Video
-tt3628584,Barbershop: The Next Cut,2016,Prime Video
-tt0388500,Beauty Shop,2005,Prime Video
-tt1980929,Begin Again,2014,Prime Video
-tt9347730,Candyman,2021,Prime Video
-tt10329614,Censor,2021,Prime Video
-tt0367594,Charlie and the Chocolate Factory,2005,Prime Video
-tt0101587,City Slickers,1991,Prime Video
-tt0800320,Clash of the Titans,2010,Prime Video
-tt0094894,Colors,1988,Prime Video
-tt1598778,Contagion,2011,Prime Video
-tt3104988,Crazy Rich Asians,2018,Prime Video
-tt0112818,Dead Man Walking,1995,Prime Video
-tt0120654,Dirty Work,1998,Prime Video
-tt5013056,Dunkirk,2017,Prime Video
-tt7026672,Every Day,2018,Prime Video
-tt5001718,"Everything, Everything",2017,Prime Video
-tt0116282,Fargo,1996,Prime Video
-tt6513120,Fighting with My Family,2019,Prime Video
-tt0155711,Flawless,1999,Prime Video
-tt0486321,Fly Me to the Moon,2008,Prime Video
-tt5635086,God's Own Country,2017,Prime Video
-tt0831387,Godzilla,2014,Prime Video
-tt3741700,Godzilla: King of the Monsters,2019,Prime Video
-tt0099685,GoodFellas,1990,Prime Video
-tt1205489,Gran Torino,2008,Prime Video
-tt0087363,Gremlins,1984,Prime Video
-tt0079261,Hair,1979,Prime Video
-tt0095270,Hairspray,1988,Prime Video
-tt1267297,Hercules,2014,Prime Video
-tt18272208,Here,2024,Prime Video
-tt0119311,Hoodlum,1997,Prime Video
-tt21084334,I Heard the Bells,2022,Prime Video
-tt0061811,In the Heat of the Night,1967,Prime Video
-tt1375666,Inception,2010,Prime Video
-tt11229780,Infidel,2019,Prime Video
-tt0378109,Into the Blue,2005,Prime Video
-tt0865907,Into the Blue 2: The Reef,2009,Prime Video
-tt7349950,It Chapter Two,2019,Prime Video
-tt1617661,Jupiter Ascending,2015,Prime Video
-tt0250494,Legally Blonde,2001,Prime Video
-tt0333780,"Legally Blonde 2: Red, White & Blonde",2003,Prime Video
-tt1015999,Legally Blondes,2009,Prime Video
-tt8633950,Les Invisibles,2019,Prime Video
-tt11271038,Licorice Pizza,2021,Prime Video
-tt0102316,Little Man Tate,1991,Prime Video
-tt0113682,Loch Ness,1996,Prime Video
-tt0100054,Lord of the Flies,1990,Prime Video
-tt8031554,L風暴,2018,Prime Video
-tt2268016,Magic Mike XXL,2015,Prime Video
-tt2674426,Me Before You,2016,Prime Video
-tt10633456,Minari,2021,Prime Video
-tt0212346,Miss Congeniality,2000,Prime Video
-tt0095690,Mystic Pizza,1988,Prime Video
-tt0074958,Network,1976,Prime Video
-tt0093640,No Way Out,1987,Prime Video
-tt5040012,Nosferatu,2024,Prime Video
-tt0240772,Ocean's Eleven,2001,Prime Video
-tt0496806,Ocean's Thirteen,2007,Prime Video
-tt0078087,Piranha,1978,Prime Video
-tt7156436,PMC: 더 벙커,2018,Prime Video
-tt0084516,Poltergeist,1982,Prime Video
-tt0102744,Quigley Down Under,1990,Prime Video
-tt0087985,Red Dawn,1984,Prime Video
-tt1234719,Red Dawn,2012,Prime Video
-tt1855325,Resident Evil: Retribution,2012,Prime Video
-tt0122459,Return to Me,2000,Prime Video
-tt0093870,RoboCop,1987,Prime Video
-tt1234721,RoboCop,2014,Prime Video
-tt0100502,RoboCop 2,1990,Prime Video
-tt0107978,RoboCop 3,1993,Prime Video
-tt0073631,Rollerball,1975,Prime Video
-tt0120812,Rush Hour,1998,Prime Video
-tt0267913,Scooby-Doo,2002,Prime Video
-tt1000774,Sex and the City,2008,Prime Video
-tt0482599,Shutter,2008,Prime Video
-tt0337741,Something's Gotta Give,2003,Prime Video
-tt0117705,Space Jam,1996,Prime Video
-tt0413300,Spider-Man 3,2007,Prime Video
-tt8364138,Stage Mother,2020,Prime Video
-tt0086856,The Adventures of Buckaroo Banzai Across the 8th Dimension,1984,Prime Video
-tt1985949,The Angry Birds Movie,2016,Prime Video
-tt1082807,The Belko Experiment,2017,Prime Video
-tt0878804,The Blind Side,2009,Prime Video
-tt0103855,The Bodyguard,1992,Prime Video
-tt0472268,The Flying Scotsman,2006,Prime Video
-tt1343092,The Great Gatsby,2013,Prime Video
-tt0120689,The Green Mile,1999,Prime Video
-tt1119646,The Hangover,2009,Prime Video
-tt1411697,The Hangover Part II,2011,Prime Video
-tt1951261,The Hangover Part III,2013,Prime Video
-tt1298644,The Hustle,2019,Prime Video
-tt0068833,The Last House on the Left,1972,Prime Video
-tt0918940,The Legend of Tarzan,2016,Prime Video
-tt1490017,The Lego Movie,2014,Prime Video
-tt0074806,The Little Girl Who Lives Down the Lane,1976,Prime Video
-tt0110475,The Mask,1994,Prime Video
-tt9764362,The Menu,2022,Prime Video
-tt0074906,The Missouri Breaks,1976,Prime Video
-tt0177971,The Perfect Storm,2000,Prime Video
-tt0063688,The Thomas Crown Affair,1968,Prime Video
-tt0155267,The Thomas Crown Affair,1999,Prime Video
-tt9419056,The Unholy,2021,Prime Video
-tt4136456,The Virtuoso,2021,Prime Video
-tt8426594,The Wind,2018,Prime Video
-tt0380066,The Woods,2006,Prime Video
-tt0105643,Troll 2,1990,Prime Video
-tt0332452,Troy,2004,Prime Video
-tt0108451,Untamed Heart,1993,Prime Video
-tt1723121,We're the Millers,2013,Prime Video
-tt0396269,Wedding Crashers,2005,Prime Video
-tt0484877,Wedding Daze,2006,Prime Video
-tt0161083,What's the Worst That Could Happen?,2001,Prime Video
-tt5322012,Wish Upon,2017,Prime Video
-tt13669038,Women Talking,2022,Prime Video
-tt7919680,कारवाँ,2018,Prime Video
-tt6329716,九龍不敗,2019,Prime Video
-tt0073694,少林門,1976,Prime Video
-tt0081499,師弟出馬,1980,Prime Video
-tt8239806,掃毒2 天地對決,2019,Prime Video
-,無間行者之生死潛行,2020,Prime Video
-tt7587984,神探蒲松齡,2019,Prime Video
-,雷霆追击,2021,Prime Video
-tt10208198,악인전,2019,Prime Video
-,전설의 파이터,2020,Prime Video
-tt9747594,지푸라기라도 잡고 싶은 짐승들,2020,Prime Video
-tt4959750,1992,2024,HBO Max
-tt1190080,2012,2009,HBO Max
-tt0233142,3000 Miles to Graceland,2001,HBO Max
-tt0107808,A Perfect World,1993,HBO Max
-tt0041253,Colorado Territory,1949,HBO Max
-tt0094947,Dangerous Liaisons,1988,HBO Max
-tt1502404,Drive Angry,2011,HBO Max
-tt0295254,FearDotCom,2002,HBO Max
-tt0488120,Fracture,2007,HBO Max
-tt1321870,Gangster Squad,2013,HBO Max
-tt0259324,Ghost Rider,2007,HBO Max
-tt0452625,Good Luck Chuck,2007,HBO Max
-tt1454468,Gravity,2013,HBO Max
-tt1798709,Her,2013,HBO Max
-tt0033717,High Sierra,1941,HBO Max
-tt7464188,In Fabric,2018,HBO Max
-tt0409379,In Secret,2014,HBO Max
-tt10808832,Let Them All Talk,2020,HBO Max
-tt0498380,Letters from Iwo Jima,2006,HBO Max
-tt32221196,One of Them Days,2025,HBO Max
-tt5598292,Polaroid,2019,HBO Max
-tt0228750,Proof of Life,2000,HBO Max
-tt0811080,Speed Racer,2008,HBO Max
-tt0120686,Stepmom,1998,HBO Max
-tt0111301,Street Fighter,1994,HBO Max
-tt0108238,Striking Distance,1993,HBO Max
-tt2103254,Tammy,2014,HBO Max
-tt0825232,The Bucket List,2007,HBO Max
-tt0421715,The Curious Case of Benjamin Button,2008,HBO Max
-tt0106977,The Fugitive,1993,HBO Max
-tt3714720,The Hollars,2016,HBO Max
-tt0133093,The Matrix,1999,HBO Max
-tt11687002,The Outrun,2024,HBO Max
-tt0327850,The Rundown,2003,HBO Max
-tt0814335,The Stepfather,2009,HBO Max
-tt17526714,The Substance,2024,HBO Max
-tt1111422,The Taking of Pelham 1 2 3,2009,HBO Max
-tt12194006,Wunderschön,2022,HBO Max
-tt1045778,Year One,2009,HBO Max
-,"Eric Dane: Life, Loss & Courage – A Diane Sawyer Special",2026,Disney+
-tt36118988,National Geographic Museum of Exploration,2026,Disney+
-tt15534640,The Most Magical Story on Earth: 50 Years of Walt Disney World,2021,Disney+
-,The Sinfluencer of Soho,2021,Disney+
-tt0267118,Winnie the Pooh: A Valentine for You,1999,Disney+
-tt11261296,Blutsauger,2022,MUBI
-tt10329614,Censor,2021,MUBI
-tt0116720,Joyeux Calvaire,1996,MUBI
-tt1872818,Liberal Arts,2012,MUBI
-tt0100157,Misery,1990,MUBI
-tt0048434,Nuit et Brouillard,1956,MUBI
-tt0114436,Showgirls,1995,MUBI
-tt1045658,Silver Linings Playbook,2012,MUBI
-tt2321549,The Babadook,2014,MUBI
-tt0068833,The Last House on the Left,1972,MUBI
-tt0072271,The Texas Chain Saw Massacre,1974,MUBI
-tt0832971,Vanaja,2006,MUBI
-tt13560574,X,2022,MUBI
-tt0389557,Zwartboek,2006,MUBI
-tt28490044,悪は存在しない,2023,MUBI
-tt1517451,A Star Is Born,2018,Telecine
-tt0096895,Batman,1989,Telecine
-tt0372784,Batman Begins,2005,Telecine
-tt0112462,Batman Forever,1995,Telecine
-tt0103776,Batman Returns,1992,Telecine
-tt0112471,Before Sunrise,1995,Telecine
-tt0381681,Before Sunset,2004,Telecine
-tt1086772,Blended,2014,Telecine
-tt0109686,Dumb and Dumber,1994,Telecine
-tt0087363,Gremlins,1984,Telecine
-tt7349950,It Chapter Two,2019,Telecine
-tt28259207,Kill,2024,Telecine
-tt1392190,Mad Max: Fury Road,2015,Telecine
-tt2268016,Magic Mike XXL,2015,Telecine
-tt15837338,PAW Patrol: The Mighty Movie,2023,Telecine
-tt9271672,Prey for the Devil,2022,Telecine
-tt2231461,Rampage,2018,Telecine
-tt0048545,Rebel Without a Cause,1955,Telecine
-tt11456054,Run Hide Fight,2021,Telecine
-tt0267913,Scooby-Doo,2002,Telecine
-tt1000774,Sex and the City,2008,Telecine
-tt1261945,Sex and the City 2,2010,Telecine
-tt0112579,The Bridges of Madison County,1995,Telecine
-tt0468569,The Dark Knight,2008,Telecine
-tt0070047,The Exorcist,1973,Telecine
-tt0110475,The Mask,1994,Telecine
-tt11833408,The Minute You Wake Up Dead,2022,Telecine
-tt5814060,The Nun,2018,Telecine
-tt0100944,The Witches,1990,Telecine
-tt1361336,Tom & Jerry,2021,Telecine
-tt0105695,Unforgiven,1992,Telecine
-tt1302067,Yogi Bear,2010,Telecine
-tt12057234,Вдова,2020,Telecine
-tt20205236,خرس نیست,2022,Telecine
-tt2331143,そして父になる,2013,Telecine
-tt1137450,Death Wish,2018,Universal+
-tt13957560,Dumb Money,2023,Universal+
-tt0087332,Ghostbusters,1984,Universal+
-tt1375666,Inception,2010,Universal+
-tt35630705,One Chicago Crossover Event,2025,Universal+
-tt1029360,Poltergeist,2015,Universal+
-tt17024450,The Equalizer 3,2023,Universal+
-tt0903624,The Hobbit: An Unexpected Journey,2012,Universal+
-tt2310332,The Hobbit: The Battle of the Five Armies,2014,Universal+
-tt1170358,The Hobbit: The Desolation of Smaug,2013,Universal+
+tt9695156,27 Steps of May,2019,Netflix
+tt1320304,30 Days of Night: Dark Days,2010,Netflix
+tt2557490,A Million Ways to Die in the West,2014,Netflix
+tt7493370,Adults in the Room,2019,Netflix
+tt0765429,American Gangster,2007,Netflix
+tt30318107,An Instant Dad,2023,Netflix
+tt0112384,Apollo 13,1995,Netflix
+tt0295178,Austin Powers in Goldmember,2002,Netflix
+tt0182789,Bicentennial Man,1999,Netflix
+tt14351082,Cabrini,2024,Netflix
+tt0239395,Cats & Dogs,2001,Netflix
+tt1287468,Cats & Dogs: The Revenge of Kitty Galore,2010,Netflix
+tt0299658,Chicago,2002,Netflix
+tt0800320,Clash of the Titans,2010,Netflix
+tt0112697,Clueless,1995,Netflix
+tt2043865,Cásese quien pueda,2014,Netflix
+tt1077368,Dark Shadows,2012,Netflix
+tt7510222,Despicable Me 4,2024,Netflix
+tt0260866,Don't Say a Word,2001,Netflix
+tt10731256,Don't Worry Darling,2022,Netflix
+tt0817538,Drillbit Taylor,2008,Netflix
+tt15422466,Edis Starlight,2021,Netflix
+tt0315850,El bonaerense,2002,Netflix
+tt6513656,Escape Plan 2: Hades,2018,Netflix
+tt2823574,Extraction,2013,Netflix
+tt1564777,Fallen,2016,Netflix
+tt0359254,Familia rodante,2004,Netflix
+tt6513120,Fighting with My Family,2019,Netflix
+tt0173840,Final Fantasy: The Spirits Within,2001,Netflix
+tt14539740,Godzilla x Kong: The New Empire,2024,Netflix
+tt1205489,Gran Torino,2008,Netflix
+tt4270516,Grandma,2015,Netflix
+tt0427327,Hairspray,2007,Netflix
+tt3011960,Hangman,2017,Netflix
+tt0120696,Hard Rain,1998,Netflix
+tt11310884,Historia de lo oculto,2023,Netflix
+tt0469916,Hollow Man II,2006,Netflix
+tt6791096,I Feel Pretty,2018,Netflix
+tt3347518,In My Dreams,2015,Netflix
+tt1057500,Invictus,2009,Netflix
+tt4126340,Joe Dirt 2: Beautiful Loser,2015,Netflix
+tt0107290,Jurassic Park,1993,Netflix
+tt0163025,Jurassic Park III,2001,Netflix
+tt0369610,Jurassic World,2015,Netflix
+tt4881806,Jurassic World: Fallen Kingdom,2018,Netflix
+tt11831084,Kambili: The Whole 30 Yards,2020,Netflix
+tt0478311,Knocked Up,2007,Netflix
+tt13532214,La Vocera,2021,Netflix
+tt0457400,Land of the Lost,2009,Netflix
+tt9340860,Let Him Go,2020,Netflix
+tt0892318,Letters to Juliet,2010,Netflix
+tt2708254,Life of a King,2013,Netflix
+tt0110367,Little Women,1994,Netflix
+tt15576986,LOL Surprise: The Movie,2021,Netflix
+tt0318155,Looney Tunes: Back in Action,2003,Netflix
+tt15268100,Luccas Neto em: O Mapa do Tesouro,2020,Netflix
+tt14668630,"Lyle, Lyle, Crocodile",2022,Netflix
+tt22048412,MaXXXine,2024,Netflix
+tt23026954,Monster High 2,2023,Netflix
+tt0468816,Nacido y criado,2006,Netflix
+tt0363282,New York Minute,2004,Netflix
+tt2378281,No se aceptan devoluciones,2013,Netflix
+tt38221275,Nouvelle École: Et après: Réussir ou mourir,2025,Netflix
+tt1921043,O Palhaço,2011,Netflix
+tt7131622,Once Upon a Time... in Hollywood,2019,Netflix
+tt3829920,Only the Brave,2017,Netflix
+tt1107365,Open Season 2,2008,Netflix
+tt0114069,Outbreak,1995,Netflix
+tt0431308,P.S. I Love You,2007,Netflix
+tt0117381,Primal Fear,1996,Netflix
+tt6556670,Qu'est-ce qu'on a encore fait au Bon Dieu ?,2019,Netflix
+tt33335530,"Rachel Bloom: Death, Let Me Do My Special",2024,Netflix
+tt0490204,Reign Over Me,2007,Netflix
+tt1403981,Remember Me,2010,Netflix
+tt1220634,Resident Evil: Afterlife,2010,Netflix
+tt4969044,Riphagen,2016,Netflix
+tt13445916,Sanitation Day,2020,Netflix
+tt0098258,Say Anything...,1989,Netflix
+tt0363988,Secret Window,2004,Netflix
+tt0120094,Selena,1997,Netflix
+tt0120102,Seven Years in Tibet,1997,Netflix
+tt0358135,Shall We Dance?,2004,Netflix
+tt0822854,Shooter,2007,Netflix
+tt0162661,Sleepy Hollow,1999,Netflix
+tt7512304,Smaller and Smaller Circles,2017,Netflix
+tt0338450,Sniper 2,2002,Netflix
+tt0408196,Sniper 3,2004,Netflix
+tt27571272,"Soltera, casada, viuda, divorciada",2023,Netflix
+tt6881490,Sound of Hope: The Story of Possum Trot,2024,Netflix
+tt3554046,Space Jam: A New Legacy,2021,Netflix
+tt0462590,Step Up,2006,Netflix
+tt0108238,Striking Distance,1993,Netflix
+tt0244244,Swordfish,2001,Netflix
+tt1233571,The Art of War II: Betrayal,2008,Netflix
+tt0878647,The Art of War III: Retribution,2009,Netflix
+tt1488555,The Change-Up,2011,Netflix
+tt32020404,The Commandant's Shadow,2024,Netflix
+tt0421715,The Curious Case of Benjamin Button,2008,Netflix
+tt0356680,The Family Stone,2005,Netflix
+tt0144214,The General's Daughter,1999,Netflix
+tt0373926,The Interpreter,2005,Netflix
+tt0399201,The Island,2005,Netflix
+tt0087538,The Karate Kid,1984,Netflix
+tt0110366,The Little Rascals,1994,Netflix
+tt0398165,The Longest Yard,2005,Netflix
+tt0119567,The Lost World: Jurassic Park,1997,Netflix
+tt0457090,The Marksman,2005,Netflix
+tt1659337,The Perks of Being a Wallflower,2012,Netflix
+tt0119978,The Rainmaker,1997,Netflix
+tt0472181,The Smurfs,2011,Netflix
+tt0070735,The Sting,1973,Netflix
+tt23778968,Thelma,2024,Netflix
+tt1679335,Trolls,2016,Netflix
+tt6587640,Trolls World Tour,2020,Netflix
+tt2083383,Trouble with the Curve,2012,Netflix
+tt3580748,Tyson's Run,2022,Netflix
+tt11111232,Valentina,2020,Netflix
+tt13377488,W jak morderstwo,2021,Netflix
+tt1588173,Warm Bodies,2013,Netflix
+tt12193804,Whitney Houston: I Wanna Dance with Somebody,2022,Netflix
+tt0486051,Wind Chill,2007,Netflix
+tt0295701,xXx,2002,Netflix
+tt15388610,Zoey's Extraordinary Christmas,2021,Netflix
+tt2402751,¿Qué le dijiste a Dios?,2014,Netflix
+tt26008162,نبيل الجميل اخصائي تجميل,2022,Netflix
+,ओह माय डॉग,2026,Netflix
+tt37045101,ศึกค้างคาวกินกล้วย,2024,Netflix
+tt15192154,それいけ！アンパンマン シャボン玉のプルン,2007,Netflix
+tt0188640,ゴジラ2000 ミレニアム,1999,Netflix
+tt0190332,卧虎藏龍,2000,Netflix
+tt15721650,映画 五等分の花嫁,2022,Netflix
+tt5813366,机器之血,2017,Netflix
+tt7605074,流浪地球,2019,Netflix
+tt13616600,滝沢歌舞伎 Zero 2020 The Movie,2020,Netflix
+tt0885520,盛夏光年,2006,Netflix
+tt13575838,盛夏未来,2021,Netflix
+tt19815280,貞子DX,2022,Netflix
+tt13605284,A Mistake,2023,Prime Video
+tt0105265,A River Runs Through It,1992,Prime Video
+tt20672490,American Carnage,2022,Prime Video
+tt28607951,Anora,2024,Prime Video
+,BE:FIRST Live in Dome 2024 “Mainstream – Masterplan”,2024,Prime Video
+tt2275743,"Berlin, I Love You",2019,Prime Video
+tt28216213,Big Love,2023,Prime Video
+tt0088846,Brazil,1985,Prime Video
+tt0109450,Cobb,1994,Prime Video
+tt4596248,Corazón de León,2015,Prime Video
+tt26612950,Das Lehrerzimmer,2023,Prime Video
+tt4179040,De Reünie,2015,Prime Video
+tt13392012,Demonic,2021,Prime Video
+tt0432283,Fantastic Mr. Fox,2009,Prime Video
+tt0101984,Guilty by Suspicion,1991,Prime Video
+tt0167190,Hellboy,2004,Prime Video
+tt0102138,JFK,1991,Prime Video
+tt0412922,Little Manhattan,2005,Prime Video
+tt7207478,Loco Love,2017,Prime Video
+tt31187064,Los iniciados: El diario de las sombras,2024,Prime Video
+tt0107478,Made in America,1993,Prime Video
+tt13616362,Mirreyes vs Godínez: Home Office,2020,Prime Video
+tt13239062,Nina,2024,Prime Video
+tt12263440,"No andaba muerto, estaba de parranda",2020,Prime Video
+tt0089695,"No Retreat, No Surrender",1986,Prime Video
+tt1334026,O Menino da Porteira,2009,Prime Video
+,Polly Pocket: Adventures in Rio,2024,Prime Video
+tt31727191,Preparation for the Next Life,2025,Prime Video
+tt1723811,Shame,2011,Prime Video
+tt0114436,Showgirls,1995,Prime Video
+tt0316654,Spider-Man 2,2004,Prime Video
+tt6320628,Spider-Man: Far from Home,2019,Prime Video
+tt4633694,Spider-Man: Into the Spider-Verse,2018,Prime Video
+tt2140479,The Accountant,2016,Prime Video
+tt13457790,The Critic,2024,Prime Video
+tt21905744,The Front Room,2024,Prime Video
+tt1594562,The Innkeepers,2012,Prime Video
+tt2234155,The Internship,2013,Prime Video
+tt0185125,Todo sobre mi madre,1999,Prime Video
+tt38117087,Victoria's Secret Fashion Show,2025,Prime Video
+tt9288692,Werewolves Within,2021,Prime Video
+tt19623240,Winnie the Pooh: Blood and Honey,2023,Prime Video
+tt4216984,Wolf Man,2025,Prime Video
+tt27218960,Y2K,2024,Prime Video
+tt8858494,Болевой порог,2019,Prime Video
+tt7403614,Большое путешествие,2019,Prime Video
+tt1224378,Вий,2014,Prime Video
+tt9875852,Домовой,2019,Prime Video
+tt9415552,Несокрушимый,2018,Prime Video
+tt6384386,फन्ने खां,2018,Prime Video
+,鬼平犯科帳 でくの十蔵,2024,Prime Video
+tt0933877,Alive Day Memories: Home from Iraq,2007,HBO Max
+tt15791034,Barbarian,2022,HBO Max
+tt15390756,Dear Rider: The Jake Burton Story,2021,HBO Max
+tt21821322,Designing Christmas,2022,HBO Max
+tt15520020,Four Hours at the Capitol,2021,HBO Max
+tt6535880,Haunt,2019,HBO Max
+tt1001526,Megamind,2010,HBO Max
+tt15391896,"Michelle Carter: Love, Texts & Death",2021,HBO Max
+tt22698070,Mortal Kombat Legends: Cage Match,2023,HBO Max
+tt23037030,The Curse of the Highgate Vampire,2021,HBO Max
+tt14453042,The Devil Made Me Do It,2021,HBO Max
+tt30955489,Until Dawn,2025,HBO Max
+tt0322259,2 Fast 2 Furious,2003,Disney+
+tt6324278,Abominable,2019,Disney+
+tt0112431,Babe,1995,Disney+
+tt0120595,Babe: Pig in the City,1998,Disney+
+tt0871426,Baby Mama,2008,Disney+
+tt0088763,Back to the Future,1985,Disney+
+tt0096874,Back to the Future Part II,1989,Disney+
+tt0099088,Back to the Future Part III,1990,Disney+
+tt0389790,Bee Movie,2007,Disney+
+tt0265298,Big Fat Liar,2002,Disney+
+tt3824648,Big Time Adolescence,2020,Disney+
+tt1478338,Bridesmaids,2011,Disney+
+tt0381971,Curious George,2006,Disney+
+tt1350484,Curious George 2: Follow That Monkey!,2009,Disney+
+tt4622340,Curious George 3: Back to the Jungle,2015,Disney+
+tt15437042,Curious George: Cape Ahoy,2021,Disney+
+tt13071908,"Curious George: Go West, Go Wild",2020,Disney+
+tt10510166,Curious George: Royal Monkey,2019,Disney+
+tt2235108,Dear White People,2014,Disney+
+tt6673612,Dolittle,2020,Disney+
+tt0116136,DragonHeart,1996,Disney+
+tt0083866,E.T. the Extra-Terrestrial,1982,Disney+
+tt0413099,Evan Almighty,2007,Disney+
+tt5433138,F9,2021,Disney+
+tt16167164,Família Craft e o Código da 20,2021,Disney+
+tt1905041,Fast & Furious 6,2013,Disney+
+tt6806448,Fast & Furious Presents: Hobbs & Shaw,2019,Disney+
+tt1596343,Fast Five,2011,Disney+
+tt0800039,Forgetting Sarah Marshall,2008,Disney+
+,Four Days in October,2010,Disney+
+tt10344522,Four Good Days,2021,Disney+
+tt34601055,Frankie Quiñones: Damn That's Crazy,2025,Disney+
+tt2820852,Furious 7,2015,Disney+
+tt3564472,Girls Trip,2017,Disney+
+tt0299943,Gotta Kick It Up!,2002,Disney+
+tt1411704,Hop,2011,Disney+
+tt0286716,Hulk,2003,Disney+
+tt0107290,Jurassic Park,1993,Disney+
+tt0163025,Jurassic Park III,2001,Disney+
+tt0369610,Jurassic World,2015,Disney+
+tt4881806,Jurassic World: Fallen Kingdom,2018,Disney+
+tt0441773,Kung Fu Panda,2008,Disney+
+tt1302011,Kung Fu Panda 2,2011,Disney+
+tt0351283,Madagascar,2005,Disney+
+tt0479952,Madagascar: Escape 2 Africa,2008,Disney+
+tt3591568,Marvel Studios: Assembling a Universe,2014,Disney+
+,Nature Boy,2017,Disney+
+tt0134847,Pitch Black,2000,Disney+
+tt0448694,Puss in Boots,2011,Disney+
+tt1053424,Repo Men,2010,Disney+
+tt0307453,Shark Tale,2004,Disney+
+tt0126029,Shrek,2001,Disney+
+tt0298148,Shrek 2,2004,Disney+
+tt0892791,Shrek Forever After,2010,Disney+
+tt0413267,Shrek the Third,2007,Disney+
+tt3470600,Sing,2016,Disney+
+tt6467266,Sing 2,2021,Disney+
+tt7339248,The Art of Self-Defense,2019,Disney+
+tt3874544,The Boss Baby,2017,Disney+
+tt6932874,The Boss Baby: Family Business,2021,Disney+
+tt1488555,The Change-Up,2011,Disney+
+tt0481499,The Croods,2013,Disney+
+tt2850386,The Croods: A New Age,2020,Disney+
+tt8695030,The Dead Don't Die,2019,Disney+
+tt0232500,The Fast and the Furious,2001,Disney+
+tt4630562,The Fate of the Furious,2017,Disney+
+tt1482459,The Lorax,2012,Disney+
+tt0119567,The Lost World: Jurassic Park,1997,Disney+
+tt0120616,The Mummy,1999,Disney+
+tt2345759,The Mummy,2017,Disney+
+tt0209163,The Mummy Returns,2001,Disney+
+tt0859163,The Mummy: Tomb of the Dragon Emperor,2008,Disney+
+tt0120794,The Prince of Egypt,1998,Disney+
+tt0138749,The Road to El Dorado,2000,Disney+
+tt2709768,The Secret Life of Pets,2016,Disney+
+tt5113040,The Secret Life of Pets 2,2019,Disney+
+tt1679335,Trolls,2016,Disney+
+tt0212720,A.I. Artificial Intelligence,2001,Paramount+
+tt1470171,Abandoned,2010,Paramount+
+tt0169547,American Beauty,1999,Paramount+
+tt2210463,Battle of the Damned,2013,Paramount+
+tt1469304,Baywatch,2017,Paramount+
+tt2397461,Clifford the Big Red Dog,2021,Paramount+
+tt18381124,Corazonada,2022,Paramount+
+tt2014202,Dawn Rider,2012,Paramount+
+tt1907668,Flight,2012,Paramount+
+tt0116367,From Dusk Till Dawn,1996,Paramount+
+tt0099653,Ghost,1990,Paramount+
+tt1028532,Hachi: A Dog's Tale,2009,Paramount+
+tt3276924,Heist,2015,Paramount+
+tt1205537,Jack Ryan: Shadow Recruit,2014,Paramount+
+tt0181689,Minority Report,2002,Paramount+
+tt2388715,Oculus,2014,Paramount+
+tt0302886,Old School,2003,Paramount+
+tt1778304,Paranormal Activity 3,2011,Paramount+
+tt2109184,Paranormal Activity 4,2012,Paramount+
+tt33028778,Primate,2026,Paramount+
+tt5648882,The Burial,2023,Paramount+
+tt0099674,The Godfather Part III,1990,Paramount+
+tt0171363,The Haunting,1999,Paramount+
+,"The Honey Trap: A True Story of Love, Lies and the FBI",2024,Paramount+
+tt2198241,The Outsider,2015,Paramount+
+tt0119874,The Peacemaker,1997,Paramount+
+tt2058107,The Railway Man,2013,Paramount+
+tt0377109,The Ring Two,2005,Paramount+
+tt0362227,The Terminal,2004,Paramount+
+tt0120382,The Truman Show,1998,Paramount+
+tt0094226,The Untouchables,1987,Paramount+
+tt0259711,Vanilla Sky,2001,Paramount+
+tt1293847,xXx: Return of Xander Cage,2017,Paramount+
+,9 Lives of a Wet Pussy,1976,MUBI
+tt10168670,Bones and All,2022,MUBI
+tt0069897,Coffy,1973,MUBI
+tt0106677,Dazed and Confused,1993,MUBI
+tt0097216,Do the Right Thing,1989,MUBI
+tt2214997,El Sueño de Lu,2012,MUBI
+tt0071517,Foxy Brown,1974,MUBI
+tt0113243,Hackers,1995,MUBI
+tt1782453,Hail,2012,MUBI
+tt0347131,Los guantes mágicos,2003,MUBI
+tt4940952,Minotauro,2015,MUBI
+tt3103334,Mouton,2013,MUBI
+tt0337692,On the Road,2012,MUBI
+tt0107922,Rapado,1992,MUBI
+tt0194378,Silvia Prieto,1999,MUBI
+tt1522287,Sincronía,2009,MUBI
+tt21307994,Skinamarink,2023,MUBI
+tt2461126,"Something, Anything",2015,MUBI
+tt1788464,The Wife Master,2014,MUBI
+tt0086567,WarGames,1983,MUBI
+tt0092238,Working Girls,1987,MUBI
+tt2085986,Yemen's Reluctant Revolutionary,2012,MUBI
+tt4299406,A Noite da Virada,2014,Telecine
+tt29252358,Armor,2024,Telecine
+tt15131266,As Good as Dead,2022,Telecine
+tt14763720,Capitu e o Capítulo,2023,Telecine
+tt14022920,Derrapada,2022,Telecine
+tt9694312,Stardust,2020,Telecine
+tt0120755,Mission: Impossible II,2000,Universal+
+tt2024469,Non-Stop,2014,Universal+
+tt1563742,Overboard,2018,Universal+
+tt11125620,The Addams Family 2,2021,Universal+
+tt0985699,Valkyrie,2008,Universal+
