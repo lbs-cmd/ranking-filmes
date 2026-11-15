@@ -98,7 +98,7 @@ def conferir_imdb(filmes, anterior):
     if not os.path.exists(anterior):
         return
     with open(anterior, encoding="utf-8") as fh:
-        antes = {int(f["jw_id"]): f["imdb_id"] for f in csv.DictReader(fh)}
+        antes = {int(f["jw_id"]): f["imdb_id"] for f in csv.DictReader(fh) if f["jw_id"].isdigit()}
     mudou = [f for k, f in filmes.items() if antes.get(k) and f["imdb_id"] != antes[k]]
     print(f"IMDb ID diferente do catálogo anterior: {len(mudou)} títulos (conferindo no Letterboxd)")
     confirmados = 0

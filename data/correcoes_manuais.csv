@@ -1,0 +1,49 @@
+imdb_id,servico,acao,fonte,data,titulo_original,jw_id
+tt43716819,Netflix,restaurado_saida_falsa,JustWatch (consulta direta),2026-11-15,Beat Luke Littler,2975072
+tt23847184,Netflix,restaurado_saida_falsa,JustWatch (consulta direta),2026-11-15,கண்ணை நம்பாதே,1318020
+tt15685876,Netflix,restaurado_saida_falsa,JustWatch (consulta direta),2026-11-15,ధమకా,1271198
+tt5923102,Netflix,restaurado_saida_falsa,JustWatch (consulta direta),2026-11-15,それいけ!アンパンマン おもちゃの星のナンダとルンダ,908772
+tt2910888,Prime Video,restaurado_saida_falsa,JustWatch (consulta direta),2026-11-15,Alicia en el pais de Maria,223654
+,Prime Video,restaurado_saida_falsa,JustWatch (consulta direta),2026-11-15,ARASHI Anniversary Tour 5x10,3026192
+,Prime Video,restaurado_saida_falsa,JustWatch (consulta direta),2026-11-15,ARASHI LIVE TOUR 2014 THE DIGITALIAN,3026204
+tt35257481,Prime Video,restaurado_saida_falsa,JustWatch (consulta direta),2026-11-15,Don Jediondo Recargado,1579798
+tt34446305,Prime Video,restaurado_saida_falsa,JustWatch (consulta direta),2026-11-15,Samurai Detective Onihei: Dangerous Mercy,1556062
+tt11173248,Prime Video,restaurado_saida_falsa,JustWatch (consulta direta),2026-11-15,Sumukhi Suresh: Don't Tell Amma,850051
+tt7847324,HBO Max,restaurado_saida_falsa,JustWatch (consulta direta),2026-11-15,Ali & Cavett: The Tale of the Tapes,374178
+tt33267836,HBO Max,restaurado_saida_falsa,JustWatch (consulta direta),2026-11-15,Chica conoce a chico,1598191
+,Disney+,restaurado_saida_falsa,JustWatch (consulta direta),2026-11-15,Jordan Rides the Bus,89928
+tt43689459,Disney+,restaurado_saida_falsa,JustWatch (consulta direta),2026-11-15,The Day Diego Returned to the Azteca,2942926
+,MUBI,adicionado_justwatch,kubi2021/plugin.video.mubi + JustWatch,2026-11-15,A Woman's Torment,1380662
+,MUBI,adicionado_justwatch,kubi2021/plugin.video.mubi + JustWatch,2026-11-15,Ancestral Visions of the Future,1594209
+tt7210348,MUBI,adicionado_kubi,kubi2021/plugin.video.mubi (BR live),2026-11-15,Boom for Real: The Late Teenage Years of Jean-Michel Basquiat,mubi178424
+tt4827118,MUBI,adicionado_justwatch,kubi2021/plugin.video.mubi + JustWatch,2026-11-15,The Devil in Miss Jones,1377278
+tt2062519,MUBI,adicionado_kubi,kubi2021/plugin.video.mubi (BR live),2026-11-15,Elehiya sa dumalaw mula sa himagsikan,mubi117540
+tt1274636,MUBI,adicionado_kubi,kubi2021/plugin.video.mubi (BR live),2026-11-15,Aitá,mubi33263
+tt0117337,MUBI,adicionado_kubi,kubi2021/plugin.video.mubi (BR live),2026-11-15,Picado fino,mubi110936
+tt0219744,MUBI,adicionado_kubi,kubi2021/plugin.video.mubi (BR live),2026-11-15,Harlot,mubi178600
+tt0106319,MUBI,adicionado_kubi,kubi2021/plugin.video.mubi (BR live),2026-11-15,Au nom du Christ,mubi47496
+tt3269464,MUBI,adicionado_kubi,kubi2021/plugin.video.mubi (BR live),2026-11-15,La Paz en Buenos Aires,mubi129325
+tt3971790,MUBI,adicionado_kubi,kubi2021/plugin.video.mubi (BR live),2026-11-15,Letters to Max,mubi116742
+tt10265444,MUBI,adicionado_kubi,kubi2021/plugin.video.mubi (BR live),2026-11-15,"Mother, I Am Suffocating. This Is My Last Film About You",mubi227838
+tt10686204,MUBI,adicionado_kubi,kubi2021/plugin.video.mubi (BR live),2026-11-15,Pino,mubi285819
+tt7686386,MUBI,adicionado_kubi,kubi2021/plugin.video.mubi (BR live),2026-11-15,Radio Mary,mubi167169
+tt13658076,MUBI,adicionado_kubi,kubi2021/plugin.video.mubi (BR live),2026-11-15,The Cathedral,mubi313165
+tt0092258,MUBI,adicionado_kubi,kubi2021/plugin.video.mubi (BR live),2026-11-15,Yam Daabo,mubi24318
+tt1323518,MUBI,adicionado_kubi,kubi2021/plugin.video.mubi (BR live),2026-11-15,La forteresse,mubi48335
+tt0124666,MUBI,adicionado_kubi,kubi2021/plugin.video.mubi (BR live),2026-11-15,The Maidens of Fetish Street,mubi107884
+tt5827752,MUBI,adicionado_kubi,kubi2021/plugin.video.mubi (BR live),2026-11-15,The Modern Jungle,mubi160980
+tt9015178,MUBI,adicionado_kubi,kubi2021/plugin.video.mubi (BR live),2026-11-15,ゴジラ,275586
+tt2369543,MUBI,adicionado_kubi,kubi2021/plugin.video.mubi (BR live),2026-11-15,Lamma Shoftak,mubi99903
+tt0056693,MUBI,adicionado_kubi,kubi2021/plugin.video.mubi (BR live),2026-11-15,Wild Guitar,mubi134422
+tt1636790,MUBI,adicionado_kubi,kubi2021/plugin.video.mubi (BR live),2026-11-15,Invernadero,mubi43943
+tt13648216,MUBI,adicionado_kubi,kubi2021/plugin.video.mubi (BR live),2026-11-15,Faya Dayi,mubi288622
+tt0073467,MUBI,adicionado_kubi,kubi2021/plugin.video.mubi (BR live),2026-11-15,Not a Pretty Picture,mubi213551
+tt5701764,MUBI,adicionado_kubi,kubi2021/plugin.video.mubi (BR live),2026-11-15,Chas Zhyttia Objekta V Kadri (Film Pro Nezniatyi Film),mubi113887
+tt16376512,MUBI,adicionado_kubi,kubi2021/plugin.video.mubi (BR live),2026-11-15,Free Chol Soo Lee,mubi328602
+tt1101675,MUBI,adicionado_kubi,kubi2021/plugin.video.mubi (BR live),2026-11-15,Lake Tahoe,mubi68
+tt0093477,MUBI,adicionado_kubi,kubi2021/plugin.video.mubi (BR live),2026-11-15,Making Mr. Right,mubi55334
+tt0078831,MUBI,adicionado_kubi,kubi2021/plugin.video.mubi (BR live),2026-11-15,La batalla de Chile. Tercera parte: El poder popular,mubi377022
+tt7895852,MUBI,adicionado_kubi,kubi2021/plugin.video.mubi (BR live),2026-11-15,Inferninho,346692
+tt0945547,MUBI,adicionado_kubi,kubi2021/plugin.video.mubi (BR live),2026-11-15,O Dia em que o Brasil Esteve Aqui,219457
+tt0312773,MUBI,adicionado_kubi,kubi2021/plugin.video.mubi (BR live),2026-11-15,O Homem do Ano,143710
+tt21740488,MUBI,adicionado_kubi,kubi2021/plugin.video.mubi (BR live),2026-11-15,Junk,mubi397700
