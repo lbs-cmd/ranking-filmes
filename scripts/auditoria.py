@@ -241,7 +241,8 @@ def mubi(films_gz):
         if jw and jw["duracao_min"] and int(jw["duracao_min"]) < DURACAO_MIN:
             linha["resultado"] = "curta_ignorado"
         elif jw and "MUBI" in jw["servicos"]:
-            cat.adicionar("MUBI", jw, "adicionado_justwatch", "kubi2021/plugin.video.mubi + JustWatch")
+            # o IMDb ID do kubi é o de referência (o do JustWatch às vezes falta ou está errado)
+            cat.adicionar("MUBI", {**jw, "imdb_id": imdb}, "adicionado_justwatch", "kubi2021/plugin.video.mubi + JustWatch")
             linha["resultado"] = "adicionado_justwatch"
         else:
             info = jw or {"jw_id": f"mubi{m['mubi_id']}", "imdb_id": imdb, "titulo_pt": m["title"],

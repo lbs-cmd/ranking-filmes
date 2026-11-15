@@ -15,7 +15,7 @@ Catálogo anterior: `data/historico/catalogo_2026-10-31.csv`. Serviços: Netflix
 | Telecine | 861 | 12 | 46 | 0 | 0 | 0 | 25 de 25 | 170 | 2027-01-12 |
 | Universal+ | 473 | 45 | 4 | 0 | 0 | 0 | 25 de 25 | 182 | 2027-01-10 |
 
-Chegadas e saídas já consideram as correções da auditoria. Letterboxd: 312 filmes novos consultados, 261 ganharam nota; sem nota: {'sem_nota_letterboxd': 35, 'sem_imdb_id': 9, 'nao_encontrado_letterboxd': 7}.
+Chegadas e saídas já consideram as correções da auditoria. Letterboxd: 315 filmes novos consultados, 264 ganharam nota; sem nota: {'sem_nota_letterboxd': 35, 'sem_imdb_id': 9, 'nao_encontrado_letterboxd': 7}.
 
 ## Correções feitas (data/correcoes_manuais.csv)
 
@@ -38,9 +38,9 @@ Chegadas e saídas já consideram as correções da auditoria. Letterboxd: 312 f
 
 ### Adicionados com confirmação do JustWatch — 3
 
-- MUBI: A Woman's Torment (sem IMDb)
-- MUBI: Ancestral Visions of the Future (sem IMDb)
-- MUBI: The Devil in Miss Jones (tt4827118)
+- MUBI: A Woman's Torment (tt0076930)
+- MUBI: Ancestral Visions of the Future (tt33037725)
+- MUBI: The Devil in Miss Jones (tt0069969)
 
 ### Adicionados só pelo dataset kubi2021/plugin.video.mubi (BR, live) — o JustWatch não confirma — 31
 
@@ -123,18 +123,15 @@ Não confirmados (não adicionados, pois a fonte não é oficial):
 Cruzamento com o dataset kubi (MUBI, BR):
 
 - kubi_sem_catalogo: {'adicionado_justwatch': 3, 'adicionado_kubi': 31, 'curta_ignorado': 1}
-- catalogo_sem_kubi: {'divergencia_justwatch_mantem': 10}
+- catalogo_sem_kubi: {'divergencia_justwatch_mantem': 7}
 
 Divergências (no catálogo e com oferta no JustWatch, mas fora do kubi BR):
 
-- A Woman's Torment (1977)
-- Ancestral Visions of the Future (2025)
 - Caligula: The Ultimate Cut (2024)
 - Godzilla 1985 (1985)
 - La guitarra flamenca de Yerai Cortés (2024)
 - My Undesirable Friends: Part I - Last Air in Moscow (2025)
 - Os Normais: O Filme (2003)
-- The Devil in Miss Jones (1973)
 - أبونا (2002)
 - 東邪西毒 (1994)
 
@@ -153,3 +150,4 @@ Divergências (no catálogo e com oferta no JustWatch, mas fora do kubi BR):
 - **Telecine:** teve 46 saídas e 12 chegadas no período. É a maior perda relativa (−34 filmes), mas ainda abaixo do limite de alerta de 20%.
 - **Filmes adicionados só pelo dataset da MUBI:** o `jw_catalogo.py` do mês que vem não os reaplica. Se o JustWatch continuar sem eles, a próxima auditoria (`auditoria.py mubi`) vai readicioná-los.
 - **Amostra:** a única divergência ("Inferninho") é um desses filmes adicionados pelo kubi, então ela é esperada.
+- **Correção posterior:** os 3 filmes da MUBI confirmados pelo JustWatch tinham entrado com o IMDb ID do JustWatch (vazio ou errado). Foram corrigidos para o IMDb ID do dataset kubi, e as 3 divergências falsas que isso gerou foram retiradas.
