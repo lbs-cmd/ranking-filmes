@@ -15,7 +15,7 @@ Catálogo anterior: `data/historico/catalogo_2026-10-31.csv`. Serviços: Netflix
 | Telecine | 861 | 12 | 46 | 0 | 0 | 0 | 25 de 25 | 170 | 2027-01-12 |
 | Universal+ | 473 | 45 | 4 | 0 | 0 | 0 | 25 de 25 | 182 | 2027-01-10 |
 
-Chegadas e saídas já consideram as correções da auditoria. Letterboxd: 312 filmes novos consultados, 0 ganharam nota; sem nota: {'sem_imdb_id': 9}.
+Chegadas e saídas já consideram as correções da auditoria. Letterboxd: 312 filmes novos consultados, 261 ganharam nota; sem nota: {'sem_nota_letterboxd': 35, 'sem_imdb_id': 9, 'nao_encontrado_letterboxd': 7}.
 
 ## Correções feitas (data/correcoes_manuais.csv)
 
@@ -146,3 +146,10 @@ Divergências (no catálogo e com oferta no JustWatch, mas fora do kubi BR):
 
 ## Observações
 
+- **IMDb IDs:** o JustWatch trocou o IMDb ID de 77 títulos. A checagem via Letterboxd/TMDb manteve 10 trocas e corrigiu 67 de volta.
+- **Muitas saídas em 31/12 e 01/01:** são 141 + 133 no HBO Max, 149 no Universal+, 266 no Prime Video e 99 no Telecine. Parece vencimento de licença na virada do ano. As datas podem ser só uma data de corte genérica informada às plataformas, então vale reconferir em dezembro.
+- **Paramount+:** continua sem nenhuma data de saída, porque o JustWatch não informa e não há lista brasileira.
+- **Netflix:** a lista de saídas de novembro do RendaGeek foi usada (77 itens, até 19/11). A de **dezembro ainda não existe** (404). Por isso as datas da Netflix só vão até 20/11.
+- **Telecine:** teve 46 saídas e 12 chegadas no período. É a maior perda relativa (−34 filmes), mas ainda abaixo do limite de alerta de 20%.
+- **Filmes adicionados só pelo dataset da MUBI:** o `jw_catalogo.py` do mês que vem não os reaplica. Se o JustWatch continuar sem eles, a próxima auditoria (`auditoria.py mubi`) vai readicioná-los.
+- **Amostra:** a única divergência ("Inferninho") é um desses filmes adicionados pelo kubi, então ela é esperada.
